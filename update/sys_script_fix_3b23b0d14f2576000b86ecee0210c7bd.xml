@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <before>false</before>
+        <description>[a-zA-Z0-9_, ]+</description>
+        <flush_cache>false</flush_cache>
+        <name>Add time zone choices from sys_user</name>
+        <run_once>true</run_once>
+        <script><![CDATA[var tu = new TableUtils( 'cmn_location' );
+var strTabs = getTableExtensions( 'cmn_location' );
+var tabs = strTabs.toString().match( /\w+/g );
+//gs.print( tabs );
+
+// read TZ choices from sys_user
+var tz = new GlideRecord( 'sys_choice' );
+tz.addQuery( 'name=sys_user^element=time_zone^language=en^inactive=false' );
+tz.query();
+
+for ( var i = 0; i < tabs.length; ++i ) {
+	if ( tabs[ i ] == 'cmn_location' )
+		continue;
+	
+	while ( tz.next() )
+		gs.print( checkAndInsert( 'sys_choice', { 'name':tabs[ i ], 'element':'time_zone', 'language':'en', 'label':tz.label, 'value':tz.value, 'sequence':tz.sequence, 'inactive':tz.inactive } ) );
+	
+	tz.restoreLocation();
+}
+
+function checkAndInsert( table, record ) {
+	
+	var ga = new GlideAggregate( table );
+	ga.addAggregate( 'COUNT' );
+	for ( var prop in record ) 
+		ga.addQuery( prop, record[ prop ] );
+	ga.query();
+	ga.next();
+	if ( ga.getAggregate( 'COUNT' ) > 0 ) 
+		return 0;
+
+	var gr = new GlideRecord( table );
+	gr.initialize();
+	for ( var prop2 in record ) 
+		gr[ prop2 ] = record[ prop2 ];
+	return gr.insert();
+	
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>ZBIEWE</sys_created_by>
+        <sys_created_on>2017-03-15 20:53:27</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>3b23b0d14f2576000b86ecee0210c7bd</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Add time zone choices from sys_user</sys_name>
+        <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+        <sys_update_name>sys_script_fix_3b23b0d14f2576000b86ecee0210c7bd</sys_update_name>
+        <sys_updated_by>ZBIEWE</sys_updated_by>
+        <sys_updated_on>2017-03-15 21:47:44</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

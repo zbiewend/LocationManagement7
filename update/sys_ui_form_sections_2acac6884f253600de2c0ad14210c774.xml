@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="2acac6884f253600de2c0ad14210c774" sys_domain="global" table="x_nike2_location_sub_geography" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-12 05:43:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>aecac6884f253600de2c0ad14210c774</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_nike2_location_sub_geography" name="x_nike2_location_sub_geography" sys_domain="global" view="Default view">2acac6884f253600de2c0ad14210c774</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_sub_geography" sys_domain="global" view="Default view">a19fa5c84fa13600de2c0ad14210c700</sys_ui_section>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-12 05:43:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-13 02:09:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>a073aad44fa17600de2c0ad14210c7fe</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_nike2_location_sub_geography" name="x_nike2_location_sub_geography" sys_domain="global" view="Default view">2acac6884f253600de2c0ad14210c774</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_nike2_location_sub_geography" sys_domain="global" view="Default view">2c73aad44fa17600de2c0ad14210c7fd</sys_ui_section>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-13 02:12:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-12 05:43:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>22cac6884f253600de2c0ad14210c775</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_nike2_location_sub_geography" name="x_nike2_location_sub_geography" sys_domain="global" view="Default view">2acac6884f253600de2c0ad14210c774</sys_ui_form>
+            <sys_ui_section caption="Hierarchy" display_value="Hierarchy" name="x_nike2_location_sub_geography" sys_domain="global" view="Default view">a2cac6884f253600de2c0ad14210c774</sys_ui_section>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-13 02:12:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_nike2_location_sub_geography</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-12 05:43:15</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>2acac6884f253600de2c0ad14210c774</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_nike2_location_sub_geography</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+            <sys_update_name>sys_ui_form_sections_2acac6884f253600de2c0ad14210c774</sys_update_name>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-12 05:43:15</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

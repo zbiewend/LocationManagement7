@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Location" section_id="c6c6a6584fa17600de2c0ad14210c7af" sys_domain="global" table="x_nike2_location_data_center" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>city</element>
+            <position>0</position>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-15 01:38:40</sys_created_on>
+            <sys_id>3c9fa4854f2d36000b86ecee0210c74c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Location" display_value="Location" name="x_nike2_location_data_center" sys_domain="global" view="Default view">c6c6a6584fa17600de2c0ad14210c7af</sys_ui_section>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-15 01:38:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>street</element>
+            <position>1</position>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-15 01:38:40</sys_created_on>
+            <sys_id>bc9fa4854f2d36000b86ecee0210c74c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Location" display_value="Location" name="x_nike2_location_data_center" sys_domain="global" view="Default view">c6c6a6584fa17600de2c0ad14210c7af</sys_ui_section>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-15 01:38:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>2</position>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-15 01:38:40</sys_created_on>
+            <sys_id>309fa4854f2d36000b86ecee0210c74d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Location" display_value="Location" name="x_nike2_location_data_center" sys_domain="global" view="Default view">c6c6a6584fa17600de2c0ad14210c7af</sys_ui_section>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-15 01:38:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>zip</element>
+            <position>3</position>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-15 01:38:40</sys_created_on>
+            <sys_id>b09fa4854f2d36000b86ecee0210c74d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Location" display_value="Location" name="x_nike2_location_data_center" sys_domain="global" view="Default view">c6c6a6584fa17600de2c0ad14210c7af</sys_ui_section>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-15 01:38:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>country</element>
+            <position>4</position>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-15 01:38:40</sys_created_on>
+            <sys_id>349fa4854f2d36000b86ecee0210c74d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Location" display_value="Location" name="x_nike2_location_data_center" sys_domain="global" view="Default view">c6c6a6584fa17600de2c0ad14210c7af</sys_ui_section>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-15 01:38:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-15 01:38:40</sys_created_on>
+            <sys_id>b49fa4854f2d36000b86ecee0210c74d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Location" display_value="Location" name="x_nike2_location_data_center" sys_domain="global" view="Default view">c6c6a6584fa17600de2c0ad14210c7af</sys_ui_section>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-15 01:38:40</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>latitude</element>
+            <position>6</position>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-15 01:38:40</sys_created_on>
+            <sys_id>389fa4854f2d36000b86ecee0210c74d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Location" display_value="Location" name="x_nike2_location_data_center" sys_domain="global" view="Default view">c6c6a6584fa17600de2c0ad14210c7af</sys_ui_section>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-15 01:38:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>longitude</element>
+            <position>7</position>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-15 01:38:40</sys_created_on>
+            <sys_id>b89fa4854f2d36000b86ecee0210c74d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Location" display_value="Location" name="x_nike2_location_data_center" sys_domain="global" view="Default view">c6c6a6584fa17600de2c0ad14210c7af</sys_ui_section>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-15 01:38:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>time_zone</element>
+            <position>8</position>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-15 01:38:40</sys_created_on>
+            <sys_id>3c9fa4854f2d36000b86ecee0210c74d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Location" display_value="Location" name="x_nike2_location_data_center" sys_domain="global" view="Default view">c6c6a6584fa17600de2c0ad14210c7af</sys_ui_section>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-15 01:38:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Location</caption>
+            <header>false</header>
+            <name>x_nike2_location_data_center</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-13 02:24:01</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>c6c6a6584fa17600de2c0ad14210c7af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Location</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+            <sys_update_name>sys_ui_section_c6c6a6584fa17600de2c0ad14210c7af</sys_update_name>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-13 02:24:01</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

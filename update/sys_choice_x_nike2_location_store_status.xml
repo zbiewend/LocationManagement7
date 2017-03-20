@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="status" table="x_nike2_location_store" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pre-open (NSO)</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>0</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-14 23:56:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>2b38d8cd4fa936000b86ecee0210c7db</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-17 17:53:04</sys_updated_on>
+            <value>pre_open</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Open</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>1</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-14 23:56:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ef38d8cd4fa936000b86ecee0210c7db</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-17 17:53:08</sys_updated_on>
+            <value>open</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Remodel</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>2</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-14 23:56:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>2738d8cd4fa936000b86ecee0210c7dc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-17 17:53:12</sys_updated_on>
+            <value>remodel</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed (retired)</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>3</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-14 23:56:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6b38d8cd4fa936000b86ecee0210c7dc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-17 17:53:15</sys_updated_on>
+            <value>closed</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <name>x_nike2_location_store</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-14 23:56:43</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>2f38d8cd4fa936000b86ecee0210c7db</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>status</sys_name>
+            <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+            <sys_update_name>sys_choice_x_nike2_location_store_status</sys_update_name>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-17 17:53:15</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

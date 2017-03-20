@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="cost_center" label="Cost center" language="en" table="x_nike2_location_store">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>cost_center</element>
+            <help/>
+            <hint/>
+            <label>Cost center</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <plural>Cost centers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-11 23:21:04</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>9853fc444f213600de2c0ad14210c7de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Cost center</sys_name>
+            <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+            <sys_update_name>sys_documentation_x_nike2_location_store_cost_center_en</sys_update_name>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-11 23:21:04</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

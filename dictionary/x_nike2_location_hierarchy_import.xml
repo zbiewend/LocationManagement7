@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Hierarchy Import" max_length="40" name="x_nike2_location_hierarchy_import" type="collection">
+        <element attributes="import_attribute_name=name,edge_encryption_enabled=true" label="name" max_length="100" name="u_name" type="string"/>
+        <element attributes="import_attribute_name=parent,edge_encryption_enabled=true" label="parent" max_length="40" name="u_parent" type="string"/>
+        <element attributes="import_attribute_name=parent type,edge_encryption_enabled=true" label="parent type" max_length="40" name="u_parent_type" type="string"/>
+        <element attributes="import_attribute_name=type,edge_encryption_enabled=true" label="type" max_length="40" name="u_type" type="string"/>
+    </element>
+</database>

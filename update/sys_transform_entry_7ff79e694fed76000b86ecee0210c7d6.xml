@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>true</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd hh:mm:ss</date_format>
+        <map display_value="Hierarchy">528796694fed76000b86ecee0210c7ce</map>
+        <reference_value_field/>
+        <source_field>[Script]</source_field>
+        <source_script>answer = (function transformEntry(source) {&#13;
+&#13;
+	var t = source.u_type;&#13;
+	&#13;
+	if ( t == 'u_neighborhood' || t == 'Neighborhood' )&#13;
+		return 'x_nike2_location_neighborhood';&#13;
+	else if ( t == 'u_campus' || t == 'Campus' )&#13;
+		return 'x_nike2_location_campus';&#13;
+	else if ( t == 'u_sub_management_country' || t == 'Sub Management Country' )&#13;
+		return 'x_nike2_location_sub_management_country';&#13;
+	else if ( t == 'u_management_country' || t == 'Management Country' )&#13;
+		return 'x_nike2_location_management_country';&#13;
+	else if ( t == 'u_sub_territory' || t == 'Sub Territory' )&#13;
+		return 'x_nike2_location_sub_territory';&#13;
+	else if ( t == 'u_territory' || t == 'Territory' )&#13;
+		return 'x_nike2_location_territory';&#13;
+	else if ( t == 'u_sub_geography' || t == 'Sub Geography' )&#13;
+		return 'x_nike2_location_sub_geography';&#13;
+	else if ( t == 'u_geography' || t == 'Geography' )&#13;
+		return 'x_nike2_location_geography';&#13;
+	else if ( t == 'u_super_geography' || t == 'Super Geography' )&#13;
+		return 'x_nike2_location_super_geography';&#13;
+	else if ( t == 'u_global' || t == 'Global' )&#13;
+		return 'x_nike2_location_global';&#13;
+&#13;
+})(source);</source_script>
+        <source_table>x_nike2_location_hierarchy_import</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>ZBIEWE</sys_created_by>
+        <sys_created_on>2017-03-16 22:39:01</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>7ff79e694fed76000b86ecee0210c7d6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+        <sys_update_name>sys_transform_entry_7ff79e694fed76000b86ecee0210c7d6</sys_update_name>
+        <sys_updated_by>ZBIEWE</sys_updated_by>
+        <sys_updated_on>2017-03-17 17:16:27</sys_updated_on>
+        <target_field>sys_class_name</target_field>
+        <target_table>cmn_location</target_table>
+        <use_source_script>true</use_source_script>
+    </sys_transform_entry>
+</record_update>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="cmn_location" label="Store" max_length="40" name="x_nike2_location_store" type="collection">
+        <element choice="1" label="Concept" max_length="100" name="concept" type="choice">
+            <choice>
+                <element label="Inline" sequence="0" value="Inline"/>
+                <element label="Factory" sequence="1" value="Factory"/>
+                <element label="Clearance" sequence="2" value="Clearance"/>
+                <element label="Concept" sequence="3" value="Concept"/>
+                <element label="Partner" sequence="4" value="Partner"/>
+                <element label="Franchise" sequence="5" value="Franchise"/>
+                <element label="Concession" sequence="6" value="Concession"/>
+                <element label="Community" sequence="7" value="Community"/>
+            </choice>
+        </element>
+        <element label="Cost center" max_length="32" name="cost_center" reference="cmn_cost_center" type="reference"/>
+        <element choice="1" label="Franchise" max_length="40" name="franchise" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element label="Lease number" max_length="40" name="lease_number" type="string"/>
+        <element label="Merchant ID" max_length="40" name="merchant_id" type="string"/>
+        <element label="Notes" max_length="4000" name="notes" type="string"/>
+        <element label="Open date" max_length="40" name="open_date" type="glide_date"/>
+        <element label="Phone" max_length="40" name="phone_number" type="phone_number_e164"/>
+        <element choice="1" label="Pilot" max_length="40" name="pilot" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element choice="1" label="Primary currency" max_length="40" name="primary_currency" type="choice">
+            <choice>
+                <element label="BRL" sequence="0" value="BRL"/>
+                <element label="CHF" sequence="0" value="CHF"/>
+                <element label="CNY" sequence="0" value="CNY"/>
+                <element label="CZK" sequence="0" value="CZK"/>
+                <element label="DKK" sequence="0" value="DKK"/>
+                <element label="EUR" sequence="0" value="EUR"/>
+                <element label="GBP" sequence="0" value="GBP"/>
+                <element label="HKD" sequence="0" value="HKD"/>
+                <element label="HRK" sequence="0" value="HRK"/>
+                <element label="HUF" sequence="0" value="HUF"/>
+                <element label="ILS" sequence="0" value="ILS"/>
+                <element label="JPY" sequence="0" value="JPY"/>
+                <element label="NOK" sequence="0" value="NOK"/>
+                <element label="PLN" sequence="0" value="PLN"/>
+                <element label="RUB" sequence="0" value="RUB"/>
+                <element label="SEK" sequence="0" value="SEK"/>
+                <element label="TRY" sequence="0" value="TRY"/>
+                <element label="TWD" sequence="0" value="TWD"/>
+                <element label="USD" sequence="0" value="USD"/>
+                <element label="ZAR" sequence="0" value="ZAR"/>
+            </choice>
+        </element>
+        <element label="SAP ID" max_length="40" name="sap_id" type="string"/>
+        <element label="Sell area" max_length="40" name="sell_area" type="integer"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="Pre-open (NSO)" sequence="0" value="pre_open"/>
+                <element label="Open" sequence="1" value="open"/>
+                <element label="Remodel" sequence="2" value="remodel"/>
+                <element label="Closed (retired)" sequence="3" value="closed"/>
+            </choice>
+        </element>
+        <element label="Store name" mandatory="true" max_length="100" name="store_name" type="string"/>
+        <element label="Store number" mandatory="true" max_length="40" name="store_number" type="integer" unique="true"/>
+        <element choice="1" label="Sub concept" max_length="40" name="sub_concept" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Top door" max_length="40" name="top_door" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="cost_center"/>
+        </index>
+        <index name="index2">
+            <element name="store_number"/>
+        </index>
+    </element>
+</database>

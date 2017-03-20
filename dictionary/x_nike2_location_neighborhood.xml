@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="cmn_location" label="Neighborhood" max_length="40" name="x_nike2_location_neighborhood" type="collection"/>
+</database>

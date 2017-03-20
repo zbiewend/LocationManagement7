@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="store import" max_length="40" name="x_nike2_location_store_import" type="collection">
+        <element attributes="import_attribute_name=Active,edge_encryption_enabled=true" label="Active" max_length="40" name="u_active" type="string"/>
+        <element attributes="import_attribute_name=Brand,edge_encryption_enabled=true" label="Brand" max_length="40" name="u_brand" type="string"/>
+        <element attributes="import_attribute_name=City,edge_encryption_enabled=true" label="City" max_length="40" name="u_city" type="string"/>
+        <element attributes="import_attribute_name=Concept,edge_encryption_enabled=true" label="Concept" max_length="40" name="u_concept" type="string"/>
+        <element attributes="import_attribute_name=Country,edge_encryption_enabled=true" label="Country" max_length="100" name="u_country" type="string"/>
+        <element attributes="import_attribute_name=Email,edge_encryption_enabled=true" label="Email" max_length="65" name="u_email" type="string"/>
+        <element attributes="import_attribute_name=Franchise,edge_encryption_enabled=true" label="Franchise" max_length="40" name="u_franchise" type="string"/>
+        <element attributes="import_attribute_name=Latitude" label="Latitude" max_length="40" name="u_latitude" type="float"/>
+        <element attributes="import_attribute_name=Lease number,edge_encryption_enabled=true" label="Lease number" max_length="40" name="u_lease_number" type="string"/>
+        <element attributes="import_attribute_name=Longitude" label="Longitude" max_length="40" name="u_longitude" type="float"/>
+        <element attributes="import_attribute_name=Merchant ID,edge_encryption_enabled=true" label="Merchant ID" max_length="40" name="u_merchant_id" type="string"/>
+        <element attributes="import_attribute_name=Notes,edge_encryption_enabled=true" label="Notes" max_length="4000" name="u_notes" type="string"/>
+        <element attributes="import_attribute_name=Open Date" label="Open Date" max_length="40" name="u_open_date" type="glide_date"/>
+        <element attributes="import_attribute_name=Phone,edge_encryption_enabled=true" label="Phone" max_length="40" name="u_phone" type="string"/>
+        <element attributes="import_attribute_name=Pilot,edge_encryption_enabled=true" label="Pilot" max_length="40" name="u_pilot" type="string"/>
+        <element attributes="import_attribute_name=Primary currency,edge_encryption_enabled=true" label="Primary currency" max_length="40" name="u_primary_currency" type="string"/>
+        <element attributes="import_attribute_name=SAP ID,edge_encryption_enabled=true" label="SAP ID" max_length="40" name="u_sap_id" type="string"/>
+        <element attributes="import_attribute_name=Sell area" label="Sell area" max_length="40" name="u_sell_area" type="integer"/>
+        <element attributes="import_attribute_name=State / Province,edge_encryption_enabled=true" label="State / Province" max_length="40" name="u_state___province" type="string"/>
+        <element attributes="import_attribute_name=Status,edge_encryption_enabled=true" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="import_attribute_name=Store Name,edge_encryption_enabled=true" label="Store Name" max_length="100" name="u_store_name" type="string"/>
+        <element attributes="import_attribute_name=Store Number,edge_encryption_enabled=true" label="Store Number" max_length="40" name="u_store_number" type="string"/>
+        <element attributes="import_attribute_name=Street,edge_encryption_enabled=true" label="Street" max_length="255" name="u_street" type="string"/>
+        <element attributes="import_attribute_name=Sub concept,edge_encryption_enabled=true" label="Sub concept" max_length="40" name="u_sub_concept" type="string"/>
+        <element attributes="import_attribute_name=Time zone,edge_encryption_enabled=true" label="Time zone" max_length="40" name="u_time_zone" type="string"/>
+        <element attributes="import_attribute_name=Top door,edge_encryption_enabled=true" label="Top door" max_length="40" name="u_top_door" type="string"/>
+        <element attributes="import_attribute_name=Zip / Postal Code,edge_encryption_enabled=true" label="Zip / Postal Code" max_length="40" name="u_zip___postal_code" type="string"/>
+    </element>
+</database>

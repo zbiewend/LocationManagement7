@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Hierarchy" section_id="454098c54fa936000b86ecee0210c75a" sys_domain="global" table="x_nike2_location_neighborhood" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_super_geography</element>
+            <position>0</position>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-14 23:26:03</sys_created_on>
+            <sys_id>1e3198094fa936000b86ecee0210c7ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Hierarchy" display_value="Hierarchy" name="x_nike2_location_neighborhood" sys_domain="global" view="Default view">454098c54fa936000b86ecee0210c75a</sys_ui_section>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-14 23:26:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_geography</element>
+            <position>1</position>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-14 23:26:03</sys_created_on>
+            <sys_id>9e3198094fa936000b86ecee0210c7ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Hierarchy" display_value="Hierarchy" name="x_nike2_location_neighborhood" sys_domain="global" view="Default view">454098c54fa936000b86ecee0210c75a</sys_ui_section>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-14 23:26:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_sub_geography</element>
+            <position>2</position>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-14 23:26:03</sys_created_on>
+            <sys_id>123198094fa936000b86ecee0210c7ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Hierarchy" display_value="Hierarchy" name="x_nike2_location_neighborhood" sys_domain="global" view="Default view">454098c54fa936000b86ecee0210c75a</sys_ui_section>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-14 23:26:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_territory</element>
+            <position>3</position>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-14 23:26:03</sys_created_on>
+            <sys_id>923198094fa936000b86ecee0210c7ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Hierarchy" display_value="Hierarchy" name="x_nike2_location_neighborhood" sys_domain="global" view="Default view">454098c54fa936000b86ecee0210c75a</sys_ui_section>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-14 23:26:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_sub_territory</element>
+            <position>4</position>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-14 23:26:03</sys_created_on>
+            <sys_id>163198094fa936000b86ecee0210c7ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Hierarchy" display_value="Hierarchy" name="x_nike2_location_neighborhood" sys_domain="global" view="Default view">454098c54fa936000b86ecee0210c75a</sys_ui_section>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-14 23:26:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_management_country</element>
+            <position>5</position>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-14 23:26:03</sys_created_on>
+            <sys_id>963198094fa936000b86ecee0210c7ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Hierarchy" display_value="Hierarchy" name="x_nike2_location_neighborhood" sys_domain="global" view="Default view">454098c54fa936000b86ecee0210c75a</sys_ui_section>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-14 23:26:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_sub_management_country</element>
+            <position>6</position>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-14 23:26:03</sys_created_on>
+            <sys_id>1a3198094fa936000b86ecee0210c7ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Hierarchy" display_value="Hierarchy" name="x_nike2_location_neighborhood" sys_domain="global" view="Default view">454098c54fa936000b86ecee0210c75a</sys_ui_section>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-14 23:26:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_campus</element>
+            <position>7</position>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-14 23:26:03</sys_created_on>
+            <sys_id>9a3198094fa936000b86ecee0210c7ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Hierarchy" display_value="Hierarchy" name="x_nike2_location_neighborhood" sys_domain="global" view="Default view">454098c54fa936000b86ecee0210c75a</sys_ui_section>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-14 23:26:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Hierarchy</caption>
+            <header>false</header>
+            <name>x_nike2_location_neighborhood</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-14 23:21:52</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>454098c54fa936000b86ecee0210c75a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Hierarchy</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+            <sys_update_name>sys_ui_section_454098c54fa936000b86ecee0210c75a</sys_update_name>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-14 23:21:52</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

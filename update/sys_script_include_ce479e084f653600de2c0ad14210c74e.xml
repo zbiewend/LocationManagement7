@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_nike2_location.HierarchyHelper</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>HierarchyHelper</name>
+        <script><![CDATA[var HierarchyHelper = Class.create();
+HierarchyHelper.prototype = {
+    initialize: function() {
+		
+		// nested array
+		// [ reference field name on cmn_location, table name for reference ]
+		this.mapping = [
+			[ 'u_neighborhood', 'x_nike2_location_neighborhood' ],
+			[ 'u_campus', 'x_nike2_location_campus' ],
+			[ 'u_sub_management_country', 'x_nike2_location_sub_management_country' ],
+			[ 'u_management_country', 'x_nike2_location_management_country' ],
+			[ 'u_sub_territory', 'x_nike2_location_sub_territory' ],
+			[ 'u_territory', 'x_nike2_location_territory' ],
+			[ 'u_sub_geography', 'x_nike2_location_sub_geography' ],
+			[ 'u_geography', 'x_nike2_location_geography' ],
+			[ 'u_super_geography', 'x_nike2_location_super_geography' ],
+			[ 'u_global', 'x_nike2_location_global' ]
+		];
+		
+    },
+	
+	getMapping: function() {
+		
+		return this.mapping;
+		
+	},
+	
+	resolveFieldToClass: function( f ) {
+		
+		for ( var i = 0; i < this.mapping.length; ++i )
+			if ( f == this.mapping[ i ][ 0 ] )
+				return this.mapping[ i ][ 1 ];
+		
+		return 0; // failure
+		
+	},
+	
+	resolveClassToField: function( c ) {
+		
+		for ( var i = 0; i < this.mapping.length; ++i )
+			if ( c == this.mapping[ i ][ 1 ] )
+				return this.mapping[ i ][ 0 ];
+		
+		return 0; // failure
+		
+	},
+	
+	getParent: function ( loc ) {
+		
+		var hierarchyFields = this.mapping;
+		var inHierarchy = false;
+
+		for ( var idx = 0; idx < hierarchyFields.length; ++idx ) {
+			if ( loc.sys_class_name == hierarchyFields[ idx ][ 1 ] ) {
+				inHierarchy = true;
+				break;
+			}
+		}
+
+		if ( ! inHierarchy )
+			idx = -1;
+
+		while ( idx < hierarchyFields.length ) {
+			++idx;
+			if ( loc[ hierarchyFields[ idx ][ 0 ] ] != '' ) {
+				return loc[ hierarchyFields[ idx ][ 0 ] ];
+			}
+		}
+		
+		return '';
+		
+	},
+	
+	getParentFromSid: function ( sid ) {
+		
+		var gr = new GlideRecord( 'cmn_location' );
+		if ( gr.get( sid ) )
+			if ( gr.parent != '' )
+				return gr.parent;
+		
+		return 0;
+		
+	},
+
+    type: 'HierarchyHelper'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>ZBIEWE</sys_created_by>
+        <sys_created_on>2017-03-12 06:48:29</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>ce479e084f653600de2c0ad14210c74e</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>HierarchyHelper</sys_name>
+        <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+        <sys_update_name>sys_script_include_ce479e084f653600de2c0ad14210c74e</sys_update_name>
+        <sys_updated_by>ZBIEWE</sys_updated_by>
+        <sys_updated_on>2017-03-18 00:06:34</sys_updated_on>
+    </sys_script_include>
+</record_update>

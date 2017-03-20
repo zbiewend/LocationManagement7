@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>cmn_location</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="cmn_location">u_globalVALCHANGES^ORu_super_geographyVALCHANGES^ORu_geographyVALCHANGES^ORu_sub_geographyVALCHANGES^ORu_territoryVALCHANGES^ORu_sub_territoryVALCHANGES^ORu_management_countryVALCHANGES^ORu_sub_management_countryVALCHANGES^ORu_campusVALCHANGES^ORu_neighborhoodVALCHANGES^ORsys_updated_byVALCHANGES^EQ<item endquery="false" field="u_global" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="u_super_geography" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="u_geography" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="u_sub_geography" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="u_territory" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="u_sub_territory" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="u_management_country" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="u_sub_management_country" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="u_campus" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="u_neighborhood" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="sys_updated_by" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Sync hierarchy for children</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	//gs.info( 'foo' );
+	
+	var hh = new HierarchyHelper();
+	var map = hh.getMapping();
+	var j;
+	
+	for ( var i = 0; i < map.length; ++i )
+		if ( current.sys_class_name == map[ i ][ 1 ] )
+			break;
+	//gs.info( 'first: ' + i );
+	var c = new GlideRecord( 'cmn_location' );
+	c.addQuery( hh.resolveClassToField( current.sys_class_name ), current.sys_id );
+	c.query();
+	//gs.info( 'second: ' + hh.resolveClassToField( current.sys_class_name ) );
+	
+	while ( c.next() ) {
+		for ( j = i + 1; j < map.length; ++j ) {
+			c[ map[ j ][ 0 ] ] = current[ map[ j ][ 0 ] ];
+		}
+		c.update();
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>ZBIEWE</sys_created_by>
+        <sys_created_on>2017-03-17 19:17:55</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>b1fe2ab54f2db6000b86ecee0210c721</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Sync hierarchy for children</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+        <sys_update_name>sys_script_b1fe2ab54f2db6000b86ecee0210c721</sys_update_name>
+        <sys_updated_by>ZBIEWE</sys_updated_by>
+        <sys_updated_on>2017-03-17 21:59:25</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+</record_update>

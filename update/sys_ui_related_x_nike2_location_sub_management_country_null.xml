@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_related sys_domain="global" table="x_nike2_location_sub_management_country" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Sub Management Country - Default view" name="x_nike2_location_sub_management_country" related_list="NULL" sys_domain="global" view="Default view">c4f918014fe936000b86ecee0210c7ac</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>cmn_location.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-15 00:04:07</sys_created_on>
+            <sys_id>0cf918014fe936000b86ecee0210c7ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-15 00:04:07</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Sub Management Country - Default view" name="x_nike2_location_sub_management_country" related_list="NULL" sys_domain="global" view="Default view">c4f918014fe936000b86ecee0210c7ac</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>cmn_location.u_sub_management_country</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-15 00:04:07</sys_created_on>
+            <sys_id>ccf918014fe936000b86ecee0210c7ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-15 00:04:07</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Sub Management Country - Default view" name="x_nike2_location_sub_management_country" related_list="NULL" sys_domain="global" view="Default view">c4f918014fe936000b86ecee0210c7ac</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>x_nike2_location_neighborhood.u_sub_management_country</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-15 00:04:07</sys_created_on>
+            <sys_id>80f918014fe936000b86ecee0210c7ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-15 00:04:07</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Sub Management Country - Default view" name="x_nike2_location_sub_management_country" related_list="NULL" sys_domain="global" view="Default view">c4f918014fe936000b86ecee0210c7ac</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>x_nike2_location_campus.u_sub_management_country</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-15 00:04:07</sys_created_on>
+            <sys_id>44f918014fe936000b86ecee0210c7ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-15 00:04:07</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Sub Management Country - Default view</calculated_name>
+            <filter/>
+            <name>x_nike2_location_sub_management_country</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-15 00:04:07</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>c4f918014fe936000b86ecee0210c7ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Sub Management Country - Default view</sys_name>
+            <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+            <sys_update_name>sys_ui_related_x_nike2_location_sub_management_country_null</sys_update_name>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-15 00:04:07</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

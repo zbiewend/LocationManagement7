@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="4b772e584fa17600de2c0ad14210c72d" sys_domain="global" table="x_nike2_location_logistics_center" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-13 02:27:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>cf772e584fa17600de2c0ad14210c72d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_nike2_location_logistics_center" name="x_nike2_location_logistics_center" sys_domain="global" view="Default view">4b772e584fa17600de2c0ad14210c72d</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_logistics_center" sys_domain="global" view="Default view">0ad6a2584fa17600de2c0ad14210c737</sys_ui_section>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-13 02:27:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-13 02:27:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>53772e584fa17600de2c0ad14210c72e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_nike2_location_logistics_center" name="x_nike2_location_logistics_center" sys_domain="global" view="Default view">4b772e584fa17600de2c0ad14210c72d</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_nike2_location_logistics_center" sys_domain="global" view="Default view">4b772e584fa17600de2c0ad14210c72c</sys_ui_section>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-13 02:27:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-13 02:27:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>17772e584fa17600de2c0ad14210c72e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_nike2_location_logistics_center" name="x_nike2_location_logistics_center" sys_domain="global" view="Default view">4b772e584fa17600de2c0ad14210c72d</sys_ui_form>
+            <sys_ui_section caption="Location" display_value="Location" name="x_nike2_location_logistics_center" sys_domain="global" view="Default view">8f772e584fa17600de2c0ad14210c72c</sys_ui_section>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-13 02:27:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-13 02:27:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d7772e584fa17600de2c0ad14210c72e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_nike2_location_logistics_center" name="x_nike2_location_logistics_center" sys_domain="global" view="Default view">4b772e584fa17600de2c0ad14210c72d</sys_ui_form>
+            <sys_ui_section caption="Hierarchy" display_value="Hierarchy" name="x_nike2_location_logistics_center" sys_domain="global" view="Default view">c3772e584fa17600de2c0ad14210c72d</sys_ui_section>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-13 02:27:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_nike2_location_logistics_center</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-13 02:27:07</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>4b772e584fa17600de2c0ad14210c72d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_nike2_location_logistics_center</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+            <sys_update_name>sys_ui_form_sections_4b772e584fa17600de2c0ad14210c72d</sys_update_name>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-13 02:27:07</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

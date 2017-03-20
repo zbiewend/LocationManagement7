@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="primary_currency" table="x_nike2_location_store" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>BRL</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>0</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-17 18:00:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>2483ea714f2db6000b86ecee0210c70b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-17 18:00:38</sys_updated_on>
+            <value>BRL</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CHF</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>0</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-17 18:00:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e7532a714f2db6000b86ecee0210c7a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-17 18:00:01</sys_updated_on>
+            <value>CHF</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CNY</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>0</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-17 18:00:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>76636a714f2db6000b86ecee0210c76e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-17 18:00:13</sys_updated_on>
+            <value>CNY</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CZK</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>0</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-17 18:00:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3373aa714f2db6000b86ecee0210c7d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-17 18:00:34</sys_updated_on>
+            <value>CZK</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DKK</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>0</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-17 18:00:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>1773aa714f2db6000b86ecee0210c797</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-17 18:00:32</sys_updated_on>
+            <value>DKK</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EUR</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>0</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-17 18:00:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>bb532a714f2db6000b86ecee0210c7aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-17 18:00:01</sys_updated_on>
+            <value>EUR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GBP</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>0</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-17 18:00:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ab532a714f2db6000b86ecee0210c79a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-17 18:00:00</sys_updated_on>
+            <value>GBP</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HKD</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>0</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-17 18:00:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>2a636a714f2db6000b86ecee0210c769</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-17 18:00:13</sys_updated_on>
+            <value>HKD</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HRK</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>0</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-17 18:00:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>a483aa714f2db6000b86ecee0210c7f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-17 18:00:37</sys_updated_on>
+            <value>HRK</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HUF</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>0</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-17 18:00:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c883aa714f2db6000b86ecee0210c7d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-17 18:00:35</sys_updated_on>
+            <value>HUF</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ILS</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>0</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-17 18:00:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>de83ea714f2db6000b86ecee0210c7ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-17 18:00:44</sys_updated_on>
+            <value>ILS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>JPY</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>0</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-17 18:00:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b1636a714f2db6000b86ecee0210c733</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-17 18:00:10</sys_updated_on>
+            <value>JPY</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NOK</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>0</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-17 18:00:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6f532a714f2db6000b86ecee0210c79b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-17 18:00:01</sys_updated_on>
+            <value>NOK</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PLN</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>0</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-17 18:00:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>50632a714f2db6000b86ecee0210c7b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-17 18:00:03</sys_updated_on>
+            <value>PLN</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RUB</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>0</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-17 18:00:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>44632a714f2db6000b86ecee0210c7b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-17 18:00:03</sys_updated_on>
+            <value>RUB</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SEK</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>0</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-17 18:00:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e5636a714f2db6000b86ecee0210c71d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-17 18:00:08</sys_updated_on>
+            <value>SEK</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TRY</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>0</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-17 18:00:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>44632a714f2db6000b86ecee0210c7b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-17 18:00:03</sys_updated_on>
+            <value>TRY</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TWD</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>0</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-17 18:00:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f6636a714f2db6000b86ecee0210c77c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-17 18:00:14</sys_updated_on>
+            <value>TWD</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USD</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>0</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-17 17:59:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f6532a714f2db6000b86ecee0210c753</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-17 17:59:57</sys_updated_on>
+            <value>USD</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ZAR</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>0</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-17 18:00:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>13832e714f2db6000b86ecee0210c729</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-17 18:00:48</sys_updated_on>
+            <value>ZAR</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>primary_currency</element>
+            <name>x_nike2_location_store</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-17 17:59:57</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>fa532a714f2db6000b86ecee0210c753</sys_id>
+            <sys_mod_count>20</sys_mod_count>
+            <sys_name>primary_currency</sys_name>
+            <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+            <sys_update_name>sys_choice_x_nike2_location_store_primary_currency</sys_update_name>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-17 18:00:48</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

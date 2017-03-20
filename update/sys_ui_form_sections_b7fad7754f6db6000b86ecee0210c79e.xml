@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="b7fad7754f6db6000b86ecee0210c79e" sys_domain="global" table="x_nike2_location_global" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-17 22:03:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3ffad7754f6db6000b86ecee0210c79e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_nike2_location_global" name="x_nike2_location_global" sys_domain="global" view="Default view">b7fad7754f6db6000b86ecee0210c79e</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_global" sys_domain="global" view="Default view">2b7b9a394f21ba00de2c0ad14210c77e</sys_ui_section>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-17 22:03:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-17 22:03:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>bffad7754f6db6000b86ecee0210c79e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_nike2_location_global" name="x_nike2_location_global" sys_domain="global" view="Default view">b7fad7754f6db6000b86ecee0210c79e</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_nike2_location_global" sys_domain="global" view="Default view">33fad7754f6db6000b86ecee0210c79e</sys_ui_section>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-17 22:03:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_nike2_location_global</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-17 22:03:03</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>b7fad7754f6db6000b86ecee0210c79e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_nike2_location_global</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b7fad7754f6db6000b86ecee0210c79e</sys_update_name>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-17 22:03:03</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

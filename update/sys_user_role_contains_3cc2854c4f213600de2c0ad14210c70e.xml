@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_nike2_location_data_center_user" name="x_nike2_location_data_center_user">96edbc884f213600de2c0ad14210c754</contains>
+        <role display_value="x_nike2_location.admin" name="x_nike2_location.admin">324cbc884f213600de2c0ad14210c74b</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>ZBIEWE</sys_created_by>
+        <sys_created_on>2017-03-12 00:28:33</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>3cc2854c4f213600de2c0ad14210c70e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_nike2_location_data_center_user.x_nike2_location.admin</sys_name>
+        <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+        <sys_update_name>sys_user_role_contains_3cc2854c4f213600de2c0ad14210c70e</sys_update_name>
+        <sys_updated_by>ZBIEWE</sys_updated_by>
+        <sys_updated_on>2017-03-12 00:28:33</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

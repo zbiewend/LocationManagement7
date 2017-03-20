@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="sell_area" label="Sell area" language="en" table="x_nike2_location_store">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>sell_area</element>
+            <help/>
+            <hint/>
+            <label>Sell area</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <plural>Sell areas</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-11 23:21:04</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>1c53fc444f213600de2c0ad14210c7dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Sell area</sys_name>
+            <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+            <sys_update_name>sys_documentation_x_nike2_location_store_sell_area_en</sys_update_name>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-11 23:21:04</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
