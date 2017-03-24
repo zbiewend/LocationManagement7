@@ -19,7 +19,7 @@
         <sys_class_name>sys_transform_entry</sys_class_name>
         <sys_created_by>ZBIEWE</sys_created_by>
         <sys_created_on>2017-03-17 17:44:32</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>f4dfdefd4fe9b6000b86ecee0210c751</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>u_merchant_id</sys_name>

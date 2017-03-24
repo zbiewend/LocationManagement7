@@ -39,7 +39,7 @@ function findOrCreate( sysClass ) {
         <sys_class_name>sys_transform_script</sys_class_name>
         <sys_created_by>ZBIEWE</sys_created_by>
         <sys_created_on>2017-03-15 02:32:13</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>2bb974014f6d36000b86ecee0210c78b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>onBefore</sys_name>

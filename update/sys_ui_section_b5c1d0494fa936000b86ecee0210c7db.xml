@@ -65,7 +65,7 @@
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-14 23:28:28</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_id>b5c1d0494fa936000b86ecee0210c7db</sys_id>
             <sys_mod_count>0</sys_mod_count>

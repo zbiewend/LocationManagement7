@@ -21,7 +21,7 @@
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>ZBIEWE</sys_created_by>
         <sys_created_on>2017-03-15 02:02:25</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>b805bcc94f2d36000b86ecee0210c733</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>LC import</sys_name>

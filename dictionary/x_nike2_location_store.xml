@@ -82,5 +82,8 @@
         <index name="index2">
             <element name="store_number"/>
         </index>
+        <index name="index3">
+            <element name="store_number"/>
+        </index>
     </element>
 </database>

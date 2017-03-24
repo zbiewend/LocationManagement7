@@ -22,7 +22,7 @@
         <sys_class_name>sys_dictionary_override</sys_class_name>
         <sys_created_by>ZBIEWE</sys_created_by>
         <sys_created_on>2017-03-14 23:49:01</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>ec269c4d4fa936000b86ecee0210c78d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>name</sys_name>

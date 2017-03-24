@@ -14,6 +14,8 @@
         <element attributes="import_attribute_name=Merchant ID,edge_encryption_enabled=true" label="Merchant ID" max_length="40" name="u_merchant_id" type="string"/>
         <element attributes="import_attribute_name=Notes,edge_encryption_enabled=true" label="Notes" max_length="4000" name="u_notes" type="string"/>
         <element attributes="import_attribute_name=Open Date" label="Open Date" max_length="40" name="u_open_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="parent" max_length="40" name="u_parent" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="parent type" max_length="40" name="u_parent_type" type="string"/>
         <element attributes="import_attribute_name=Phone,edge_encryption_enabled=true" label="Phone" max_length="40" name="u_phone" type="string"/>
         <element attributes="import_attribute_name=Pilot,edge_encryption_enabled=true" label="Pilot" max_length="40" name="u_pilot" type="string"/>
         <element attributes="import_attribute_name=Primary currency,edge_encryption_enabled=true" label="Primary currency" max_length="40" name="u_primary_currency" type="string"/>

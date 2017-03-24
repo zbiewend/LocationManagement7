@@ -104,7 +104,7 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-17 17:38:47</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_id>a08e96fd4fe9b6000b86ecee0210c790</sys_id>
             <sys_mod_count>0</sys_mod_count>

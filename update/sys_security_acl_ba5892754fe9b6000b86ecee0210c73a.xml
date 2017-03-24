@@ -12,7 +12,7 @@
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>ZBIEWE</sys_created_by>
         <sys_created_on>2017-03-17 17:11:53</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>ba5892754fe9b6000b86ecee0210c73a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_nike2_location_global</sys_name>

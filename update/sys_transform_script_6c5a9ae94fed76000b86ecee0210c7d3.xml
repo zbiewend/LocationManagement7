@@ -68,7 +68,7 @@
         <sys_class_name>sys_transform_script</sys_class_name>
         <sys_created_by>ZBIEWE</sys_created_by>
         <sys_created_on>2017-03-16 22:43:03</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>6c5a9ae94fed76000b86ecee0210c7d3</sys_id>
         <sys_mod_count>5</sys_mod_count>
         <sys_name>onBefore</sys_name>
