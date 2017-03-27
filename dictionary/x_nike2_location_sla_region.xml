@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element extends="sys_import_set_row" label="SLA Region" max_length="40" name="x_nike2_location_sla_region" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="D" max_length="40" name="u_d" type="string"/>
         <element attributes="import_attribute_name=Location_Name,edge_encryption_enabled=true" label="Location_Name" max_length="40" name="u_location_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="location type" max_length="40" name="u_location_type" type="string"/>
         <element attributes="import_attribute_name=SLA_Region,edge_encryption_enabled=true" label="SLA_Region" max_length="40" name="u_sla_region" type="string"/>
     </element>
 </database>

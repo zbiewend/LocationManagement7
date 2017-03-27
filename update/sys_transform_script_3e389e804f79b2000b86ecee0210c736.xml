@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="SLA region">8e143fbf4fa1b2000b86ecee0210c77f</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+	// sync u_sla_region for children
+	
+	var gr, loc;
+	var hh = new HierarchyHelper();
+	var hMap = hh.getMapping();
+	
+	for ( var i = 0; i < hMap.length; ++i ) {
+		gr = new GlideRecord( hMap[ i ][ 1 ] );
+		gr.addNotNullQuery( 'u_sla_region' );
+		gr.query();
+		while ( gr.next() ) {
+			loc = new GlideRecord( 'cmn_location' );
+			loc.addQuery( hMap[ i ][ 0 ], gr.sys_id );
+			loc.addNullQuery( 'u_sla_region' );
+			loc.query();
+			//gs.info( gr.name + ' : ' + gr.u_sla_region );
+			while ( loc.next() ) {
+				loc.u_sla_region = gr.u_sla_region;
+				loc.update();
+			}
+		}
+	}
+
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>ZBIEWE</sys_created_by>
+        <sys_created_on>2017-03-24 17:05:42</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>3e389e804f79b2000b86ecee0210c736</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>onComplete</sys_name>
+        <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+        <sys_update_name>sys_transform_script_3e389e804f79b2000b86ecee0210c736</sys_update_name>
+        <sys_updated_by>ZBIEWE</sys_updated_by>
+        <sys_updated_on>2017-03-27 18:44:26</sys_updated_on>
+        <when>onComplete</when>
+    </sys_transform_script>
+</record_update>

@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_nike2_location_sub_management_country">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_d" table="x_nike2_location_sla_region">
         <active>true</active>
         <array>false</array>
-        <attributes/>
-        <audit>true</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
+        <attributes>edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>D</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,13 +22,13 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element/>
+        <element>u_d</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <internal_type display_value="Collection">collection</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_nike2_location_sub_management_country</name>
+        <name>x_nike2_location_sla_region</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -50,18 +45,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>ZBIEWE</sys_created_by>
-        <sys_created_on>2017-03-12 01:37:52</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
-        <sys_id>096b370f4fa532000b86ecee0210c7eb</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>x_nike2_location_sub_management_country</sys_name>
+        <sys_created_on>2017-03-27 19:10:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c65352014fb936000b86ecee0210c76d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>D</sys_name>
         <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
-        <sys_update_name>sys_dictionary_x_nike2_location_sub_management_country_null</sys_update_name>
+        <sys_update_name>sys_dictionary_x_nike2_location_sla_region_u_d</sys_update_name>
         <sys_updated_by>ZBIEWE</sys_updated_by>
-        <sys_updated_on>2017-03-24 20:56:03</sys_updated_on>
+        <sys_updated_on>2017-03-27 19:10:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <u_last_refreshed/>
