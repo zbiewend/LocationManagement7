@@ -4,122 +4,152 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="cmn_location" element="NULL" name="cmn_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">49a104784fda4200de5e433e0210c74d</list_id>
+            <list_id display_value="x_nike2_location_campus" element="NULL" name="x_nike2_location_campus" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a5a45ac213f9fe0073bfb5104244b0e9</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>alex.sapp</sys_created_by>
-            <sys_created_on>2015-09-01 21:53:08</sys_created_on>
-            <sys_id>01a104784fda4200de5e433e0210c74e</sys_id>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-30 21:49:53</sys_created_on>
+            <sys_id>a9a45ac213f9fe0073bfb5104244b0e9</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alex.sapp</sys_updated_by>
-            <sys_updated_on>2015-09-01 21:53:08</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>contact</element>
-            <list_id display_value="cmn_location" element="NULL" name="cmn_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">49a104784fda4200de5e433e0210c74d</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>1</position>
-            <sum>false</sum>
-            <sys_created_by>alex.sapp</sys_created_by>
-            <sys_created_on>2015-09-01 21:53:08</sys_created_on>
-            <sys_id>41a104784fda4200de5e433e0210c74e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alex.sapp</sys_updated_by>
-            <sys_updated_on>2015-09-01 21:53:08</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>phone</element>
-            <list_id display_value="cmn_location" element="NULL" name="cmn_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">49a104784fda4200de5e433e0210c74d</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>2</position>
-            <sum>false</sum>
-            <sys_created_by>alex.sapp</sys_created_by>
-            <sys_created_on>2015-09-01 21:53:08</sys_created_on>
-            <sys_id>81a104784fda4200de5e433e0210c74e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alex.sapp</sys_updated_by>
-            <sys_updated_on>2015-09-01 21:53:08</sys_updated_on>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-30 21:49:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>city</element>
-            <list_id display_value="cmn_location" element="NULL" name="cmn_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">49a104784fda4200de5e433e0210c74d</list_id>
+            <list_id display_value="x_nike2_location_campus" element="NULL" name="x_nike2_location_campus" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a5a45ac213f9fe0073bfb5104244b0e9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-30 21:49:53</sys_created_on>
+            <sys_id>2da45ac213f9fe0073bfb5104244b0e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-30 21:49:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>company</element>
+            <list_id display_value="x_nike2_location_campus" element="NULL" name="x_nike2_location_campus" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a5a45ac213f9fe0073bfb5104244b0e9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-30 21:49:53</sys_created_on>
+            <sys_id>ada45ac213f9fe0073bfb5104244b0e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-30 21:49:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>contact</element>
+            <list_id display_value="x_nike2_location_campus" element="NULL" name="x_nike2_location_campus" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a5a45ac213f9fe0073bfb5104244b0e9</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
-            <sys_created_by>alex.sapp</sys_created_by>
-            <sys_created_on>2015-09-01 21:53:08</sys_created_on>
-            <sys_id>c1a104784fda4200de5e433e0210c74e</sys_id>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-30 21:49:53</sys_created_on>
+            <sys_id>21a45ac213f9fe0073bfb5104244b0ea</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alex.sapp</sys_updated_by>
-            <sys_updated_on>2015-09-01 21:53:08</sys_updated_on>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-30 21:49:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>latitude</element>
-            <list_id display_value="cmn_location" element="NULL" name="cmn_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">49a104784fda4200de5e433e0210c74d</list_id>
+            <element>country</element>
+            <list_id display_value="x_nike2_location_campus" element="NULL" name="x_nike2_location_campus" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a5a45ac213f9fe0073bfb5104244b0e9</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
-            <sys_created_by>alex.sapp</sys_created_by>
-            <sys_created_on>2015-09-01 21:53:08</sys_created_on>
-            <sys_id>05a104784fda4200de5e433e0210c74e</sys_id>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-30 21:49:53</sys_created_on>
+            <sys_id>a1a45ac213f9fe0073bfb5104244b0ea</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alex.sapp</sys_updated_by>
-            <sys_updated_on>2015-09-01 21:53:08</sys_updated_on>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-30 21:49:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>longitude</element>
-            <list_id display_value="cmn_location" element="NULL" name="cmn_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">49a104784fda4200de5e433e0210c74d</list_id>
+            <element>fax_phone</element>
+            <list_id display_value="x_nike2_location_campus" element="NULL" name="x_nike2_location_campus" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a5a45ac213f9fe0073bfb5104244b0e9</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
-            <sys_created_by>alex.sapp</sys_created_by>
-            <sys_created_on>2015-09-01 21:53:08</sys_created_on>
-            <sys_id>45a104784fda4200de5e433e0210c74e</sys_id>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-30 21:49:53</sys_created_on>
+            <sys_id>25a45ac213f9fe0073bfb5104244b0ea</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alex.sapp</sys_updated_by>
-            <sys_updated_on>2015-09-01 21:53:08</sys_updated_on>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-30 21:49:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_updated_on</element>
-            <list_id display_value="cmn_location" element="NULL" name="cmn_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">49a104784fda4200de5e433e0210c74d</list_id>
+            <element>full_name</element>
+            <list_id display_value="x_nike2_location_campus" element="NULL" name="x_nike2_location_campus" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a5a45ac213f9fe0073bfb5104244b0e9</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
-            <sys_created_by>alex.sapp</sys_created_by>
-            <sys_created_on>2015-09-01 21:53:08</sys_created_on>
-            <sys_id>85a104784fda4200de5e433e0210c74e</sys_id>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-30 21:49:53</sys_created_on>
+            <sys_id>a5a45ac213f9fe0073bfb5104244b0ea</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alex.sapp</sys_updated_by>
-            <sys_updated_on>2015-09-01 21:53:08</sys_updated_on>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-30 21:49:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>street</element>
-            <list_id display_value="cmn_location" element="NULL" name="cmn_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">49a104784fda4200de5e433e0210c74d</list_id>
+            <element>lat_long_error</element>
+            <list_id display_value="x_nike2_location_campus" element="NULL" name="x_nike2_location_campus" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a5a45ac213f9fe0073bfb5104244b0e9</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
             <sum>false</sum>
-            <sys_created_by>alex.sapp</sys_created_by>
-            <sys_created_on>2015-09-01 21:53:08</sys_created_on>
-            <sys_id>c5a104784fda4200de5e433e0210c74e</sys_id>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-30 21:49:53</sys_created_on>
+            <sys_id>29a45ac213f9fe0073bfb5104244b0ea</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>alex.sapp</sys_updated_by>
-            <sys_updated_on>2015-09-01 21:53:08</sys_updated_on>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-30 21:49:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>latitude</element>
+            <list_id display_value="x_nike2_location_campus" element="NULL" name="x_nike2_location_campus" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a5a45ac213f9fe0073bfb5104244b0e9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-30 21:49:53</sys_created_on>
+            <sys_id>a9a45ac213f9fe0073bfb5104244b0ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-30 21:49:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>longitude</element>
+            <list_id display_value="x_nike2_location_campus" element="NULL" name="x_nike2_location_campus" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a5a45ac213f9fe0073bfb5104244b0e9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-03-30 21:49:53</sys_created_on>
+            <sys_id>2da45ac213f9fe0073bfb5104244b0ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-03-30 21:49:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -134,7 +164,7 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-27 18:27:58</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_id>e2a9c6c94f7936000b86ecee0210c748</sys_id>
             <sys_mod_count>0</sys_mod_count>

@@ -43,7 +43,7 @@
         <sys_class_name>sys_data_source</sys_class_name>
         <sys_created_by>ZBIEWE</sys_created_by>
         <sys_created_on>2017-03-27 18:08:49</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>424506094f7936000b86ecee0210c7f2</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>locationattributes_update_v2.03.xlsx (Up</sys_name>

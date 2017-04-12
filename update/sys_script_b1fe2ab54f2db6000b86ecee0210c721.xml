@@ -65,7 +65,7 @@
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>ZBIEWE</sys_created_by>
         <sys_created_on>2017-03-17 19:17:55</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>b1fe2ab54f2db6000b86ecee0210c721</sys_id>
         <sys_mod_count>12</sys_mod_count>

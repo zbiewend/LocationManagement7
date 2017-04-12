@@ -24,17 +24,35 @@
             <element>time_zone</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Canada/Central</label>
+            <label>AET</label>
             <language>en</language>
             <name>x_nike2_location_store</name>
             <sequence>1</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-04-12 02:26:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>acf641c64f8e76000b86ecee0210c701</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-04-12 02:26:05</sys_updated_on>
+            <value>AET</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Canada/Central</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>2</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-11 23:33:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>e31638c44f213600de2c0ad14210c701</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-11 23:33:19</sys_updated_on>
+            <sys_updated_on>2017-04-12 02:26:05</sys_updated_on>
             <value>Canada/Central</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -45,14 +63,14 @@
             <label>Canada/Eastern</label>
             <language>en</language>
             <name>x_nike2_location_store</name>
-            <sequence>2</sequence>
+            <sequence>3</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-11 23:33:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>2b1638c44f213600de2c0ad14210c701</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-11 23:33:19</sys_updated_on>
+            <sys_updated_on>2017-04-12 02:26:05</sys_updated_on>
             <value>Canada/Eastern</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -63,14 +81,14 @@
             <label>Canada/Mountain</label>
             <language>en</language>
             <name>x_nike2_location_store</name>
-            <sequence>3</sequence>
+            <sequence>4</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-11 23:33:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>7f1638c44f213600de2c0ad14210c701</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-11 23:33:19</sys_updated_on>
+            <sys_updated_on>2017-04-12 02:26:05</sys_updated_on>
             <value>Canada/Mountain</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -81,14 +99,14 @@
             <label>Canada/Pacific</label>
             <language>en</language>
             <name>x_nike2_location_store</name>
-            <sequence>4</sequence>
+            <sequence>5</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-11 23:33:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>b31638c44f213600de2c0ad14210c702</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-11 23:33:19</sys_updated_on>
+            <sys_updated_on>2017-04-12 02:26:05</sys_updated_on>
             <value>Canada/Pacific</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -99,14 +117,14 @@
             <label>Europe/Amsterdam</label>
             <language>en</language>
             <name>x_nike2_location_store</name>
-            <sequence>5</sequence>
+            <sequence>6</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-11 23:33:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>f71638c44f213600de2c0ad14210c702</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-11 23:33:19</sys_updated_on>
+            <sys_updated_on>2017-04-12 02:26:05</sys_updated_on>
             <value>Europe/Amsterdam</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -117,14 +135,14 @@
             <label>Europe/Berlin</label>
             <language>en</language>
             <name>x_nike2_location_store</name>
-            <sequence>6</sequence>
+            <sequence>7</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-11 23:33:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>3f1638c44f213600de2c0ad14210c702</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-11 23:33:19</sys_updated_on>
+            <sys_updated_on>2017-04-12 02:26:05</sys_updated_on>
             <value>Europe/Berlin</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -135,14 +153,14 @@
             <label>Europe/Brussels</label>
             <language>en</language>
             <name>x_nike2_location_store</name>
-            <sequence>7</sequence>
+            <sequence>8</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-11 23:33:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>731638c44f213600de2c0ad14210c703</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-11 23:33:19</sys_updated_on>
+            <sys_updated_on>2017-04-12 02:26:05</sys_updated_on>
             <value>Europe/Brussels</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -153,14 +171,14 @@
             <label>Europe/Copenhagen</label>
             <language>en</language>
             <name>x_nike2_location_store</name>
-            <sequence>8</sequence>
+            <sequence>9</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-11 23:33:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>b71638c44f213600de2c0ad14210c703</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-11 23:33:19</sys_updated_on>
+            <sys_updated_on>2017-04-12 02:26:05</sys_updated_on>
             <value>Europe/Copenhagen</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -171,14 +189,14 @@
             <label>Europe/Dublin</label>
             <language>en</language>
             <name>x_nike2_location_store</name>
-            <sequence>9</sequence>
+            <sequence>10</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-11 23:33:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>fb1638c44f213600de2c0ad14210c703</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-11 23:33:19</sys_updated_on>
+            <sys_updated_on>2017-04-12 02:26:05</sys_updated_on>
             <value>Europe/Dublin</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -189,14 +207,14 @@
             <label>Europe/London</label>
             <language>en</language>
             <name>x_nike2_location_store</name>
-            <sequence>10</sequence>
+            <sequence>11</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-11 23:33:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>331638c44f213600de2c0ad14210c704</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-11 23:33:19</sys_updated_on>
+            <sys_updated_on>2017-04-12 02:26:05</sys_updated_on>
             <value>Europe/London</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -207,14 +225,14 @@
             <label>Europe/Madrid</label>
             <language>en</language>
             <name>x_nike2_location_store</name>
-            <sequence>11</sequence>
+            <sequence>12</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-11 23:33:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>771638c44f213600de2c0ad14210c704</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-11 23:33:19</sys_updated_on>
+            <sys_updated_on>2017-04-12 02:26:05</sys_updated_on>
             <value>Europe/Madrid</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -225,14 +243,14 @@
             <label>Europe/Paris</label>
             <language>en</language>
             <name>x_nike2_location_store</name>
-            <sequence>12</sequence>
+            <sequence>13</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-11 23:33:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>bb1638c44f213600de2c0ad14210c704</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-11 23:33:19</sys_updated_on>
+            <sys_updated_on>2017-04-12 02:26:05</sys_updated_on>
             <value>Europe/Paris</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -243,14 +261,14 @@
             <label>Europe/Rome</label>
             <language>en</language>
             <name>x_nike2_location_store</name>
-            <sequence>13</sequence>
+            <sequence>14</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-11 23:33:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>ff1638c44f213600de2c0ad14210c704</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-11 23:33:19</sys_updated_on>
+            <sys_updated_on>2017-04-12 02:26:05</sys_updated_on>
             <value>Europe/Rome</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -261,14 +279,14 @@
             <label>Europe/Stockholm</label>
             <language>en</language>
             <name>x_nike2_location_store</name>
-            <sequence>14</sequence>
+            <sequence>15</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-11 23:33:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>371638c44f213600de2c0ad14210c705</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-11 23:33:19</sys_updated_on>
+            <sys_updated_on>2017-04-12 02:26:05</sys_updated_on>
             <value>Europe/Stockholm</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -279,14 +297,14 @@
             <label>Europe/Zurich</label>
             <language>en</language>
             <name>x_nike2_location_store</name>
-            <sequence>15</sequence>
+            <sequence>16</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-11 23:33:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>7b1638c44f213600de2c0ad14210c705</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-11 23:33:19</sys_updated_on>
+            <sys_updated_on>2017-04-12 02:26:05</sys_updated_on>
             <value>Europe/Zurich</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -297,14 +315,14 @@
             <label>GMT</label>
             <language>en</language>
             <name>x_nike2_location_store</name>
-            <sequence>16</sequence>
+            <sequence>17</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-11 23:33:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>bf1638c44f213600de2c0ad14210c705</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-11 23:33:19</sys_updated_on>
+            <sys_updated_on>2017-04-12 02:26:05</sys_updated_on>
             <value>GMT</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -315,14 +333,14 @@
             <label>Hongkong</label>
             <language>en</language>
             <name>x_nike2_location_store</name>
-            <sequence>17</sequence>
+            <sequence>18</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-11 23:33:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>f31638c44f213600de2c0ad14210c706</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-11 23:33:19</sys_updated_on>
+            <sys_updated_on>2017-04-12 02:26:05</sys_updated_on>
             <value>Hongkong</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -333,14 +351,14 @@
             <label>US/Arizona</label>
             <language>en</language>
             <name>x_nike2_location_store</name>
-            <sequence>18</sequence>
+            <sequence>19</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-11 23:33:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>3b1638c44f213600de2c0ad14210c706</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-11 23:33:19</sys_updated_on>
+            <sys_updated_on>2017-04-12 02:26:05</sys_updated_on>
             <value>US/Arizona</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -351,14 +369,14 @@
             <label>US/Central</label>
             <language>en</language>
             <name>x_nike2_location_store</name>
-            <sequence>19</sequence>
+            <sequence>20</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-11 23:33:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>7f1638c44f213600de2c0ad14210c706</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-11 23:33:19</sys_updated_on>
+            <sys_updated_on>2017-04-12 02:26:05</sys_updated_on>
             <value>US/Central</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -369,14 +387,14 @@
             <label>US/Eastern</label>
             <language>en</language>
             <name>x_nike2_location_store</name>
-            <sequence>20</sequence>
+            <sequence>21</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-11 23:33:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>b31638c44f213600de2c0ad14210c707</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-11 23:33:19</sys_updated_on>
+            <sys_updated_on>2017-04-12 02:26:05</sys_updated_on>
             <value>US/Eastern</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -387,14 +405,14 @@
             <label>US/Hawaii</label>
             <language>en</language>
             <name>x_nike2_location_store</name>
-            <sequence>21</sequence>
+            <sequence>22</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-11 23:33:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>bf1638c44f213600de2c0ad14210c713</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-11 23:33:19</sys_updated_on>
+            <sys_updated_on>2017-04-12 02:26:05</sys_updated_on>
             <value>US/Hawaii</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -405,14 +423,14 @@
             <label>US/Mountain</label>
             <language>en</language>
             <name>x_nike2_location_store</name>
-            <sequence>22</sequence>
+            <sequence>23</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-11 23:33:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>f31638c44f213600de2c0ad14210c714</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-11 23:33:19</sys_updated_on>
+            <sys_updated_on>2017-04-12 02:26:05</sys_updated_on>
             <value>US/Mountain</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -423,14 +441,14 @@
             <label>US/Pacific</label>
             <language>en</language>
             <name>x_nike2_location_store</name>
-            <sequence>23</sequence>
+            <sequence>24</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-11 23:33:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>3b1638c44f213600de2c0ad14210c714</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-11 23:33:19</sys_updated_on>
+            <sys_updated_on>2017-04-12 02:26:05</sys_updated_on>
             <value>US/Pacific</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -441,14 +459,14 @@
             <label>America/Los_Angeles</label>
             <language>en</language>
             <name>x_nike2_location_store</name>
-            <sequence>24</sequence>
+            <sequence>25</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-11 23:33:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>7f1638c44f213600de2c0ad14210c714</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-11 23:33:19</sys_updated_on>
+            <sys_updated_on>2017-04-12 02:26:05</sys_updated_on>
             <value>America/Los_Angeles</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -459,14 +477,14 @@
             <label>US/Pacific-New</label>
             <language>en</language>
             <name>x_nike2_location_store</name>
-            <sequence>25</sequence>
+            <sequence>26</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-11 23:33:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>b31638c44f213600de2c0ad14210c715</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-11 23:33:19</sys_updated_on>
+            <sys_updated_on>2017-04-12 02:26:05</sys_updated_on>
             <value>US/Pacific-New</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -477,15 +495,33 @@
             <label>CET</label>
             <language>en</language>
             <name>x_nike2_location_store</name>
-            <sequence>321</sequence>
+            <sequence>27</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-15 21:47:49</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>855409d94f2576000b86ecee0210c7d0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-04-12 02:26:05</sys_updated_on>
+            <value>CET</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>JST</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>28</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-04-12 02:26:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e8f641c64f8e76000b86ecee0210c708</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-15 21:47:49</sys_updated_on>
-            <value>CET</value>
+            <sys_updated_on>2017-04-12 02:26:05</sys_updated_on>
+            <value>JST</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>time_zone</element>
@@ -494,8 +530,8 @@
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-11 23:33:19</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>6f8b3b0f4fa532000b86ecee0210c77c</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_id>56ba613513b5ba0073bfb5104244b07d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
             <sys_name>time_zone</sys_name>
             <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
             <sys_policy/>
@@ -503,7 +539,7 @@
             <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
             <sys_update_name>sys_choice_x_nike2_location_store_time_zone</sys_update_name>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-11 23:33:19</sys_updated_on>
+            <sys_updated_on>2017-04-12 02:26:05</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

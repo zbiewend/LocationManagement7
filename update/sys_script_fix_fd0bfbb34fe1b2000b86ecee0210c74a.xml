@@ -23,7 +23,7 @@ while ( gr.next() ) {
         <sys_class_name>sys_script_fix</sys_class_name>
         <sys_created_by>ZBIEWE</sys_created_by>
         <sys_created_on>2017-03-24 05:33:39</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>fd0bfbb34fe1b2000b86ecee0210c74a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>add SLA region to children</sys_name>

@@ -52,7 +52,7 @@
         <sys_created_by>ZBIEWE</sys_created_by>
         <sys_created_on>2017-03-11 23:21:03</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>756bb70f4fa532000b86ecee0210c722</sys_id>
+        <sys_id>637ae9b113b5ba0073bfb5104244b0bd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Store name</sys_name>
         <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
         <sys_update_name>sys_dictionary_x_nike2_location_store_store_name</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-03-21 21:37:37</sys_updated_on>
+        <sys_updated_on>2017-03-30 00:08:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <u_last_refreshed/>

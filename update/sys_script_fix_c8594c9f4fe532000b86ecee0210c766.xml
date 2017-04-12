@@ -18,7 +18,7 @@ while ( gr.next() ) {
         <sys_class_name>sys_script_fix</sys_class_name>
         <sys_created_by>ZBIEWE</sys_created_by>
         <sys_created_on>2017-03-21 22:38:09</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>c8594c9f4fe532000b86ecee0210c766</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>add cmn_location.sys_class_name</sys_name>

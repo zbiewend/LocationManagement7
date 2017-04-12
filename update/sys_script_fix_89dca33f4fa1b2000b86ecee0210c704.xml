@@ -36,7 +36,7 @@ while ( gr.next() )
         <sys_class_name>sys_script_fix</sys_class_name>
         <sys_created_by>ZBIEWE</sys_created_by>
         <sys_created_on>2017-03-24 04:30:24</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>89dca33f4fa1b2000b86ecee0210c704</sys_id>
         <sys_mod_count>5</sys_mod_count>
         <sys_name>force sync hierarchy</sys_name>

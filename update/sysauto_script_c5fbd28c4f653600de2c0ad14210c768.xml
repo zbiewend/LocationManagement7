@@ -35,6 +35,7 @@ while ( gr.next() ) {
         <sys_update_name>sysauto_script_c5fbd28c4f653600de2c0ad14210c768</sys_update_name>
         <sys_updated_by>ZBIEWE</sys_updated_by>
         <sys_updated_on>2017-03-18 00:07:32</sys_updated_on>
+        <u_short_description/>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
 </record_update>

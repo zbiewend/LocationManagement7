@@ -3,7 +3,10 @@
     <element audit="true" extends="cmn_location" label="Store" max_length="40" name="x_nike2_location_store" type="collection">
         <element choice="1" label="Concept" max_length="100" name="concept" type="choice">
             <choice>
+                <element label="Employee Store" sequence="0" value="Employee Store"/>
                 <element label="Inline" sequence="0" value="Inline"/>
+                <element label="Inline Store" sequence="0" value="Inline Store"/>
+                <element label="Standard" sequence="0" value="Standard"/>
                 <element label="Factory" sequence="1" value="Factory"/>
                 <element label="Clearance" sequence="2" value="Clearance"/>
                 <element label="Concept" sequence="3" value="Concept"/>
@@ -20,6 +23,7 @@
                 <element label="No" sequence="1" value="No"/>
             </choice>
         </element>
+        <element label="IT number" max_length="40" name="it_number" type="string"/>
         <element label="Lease number" max_length="40" name="lease_number" type="string"/>
         <element label="Merchant ID" max_length="40" name="merchant_id" type="string"/>
         <element label="Notes" max_length="4000" name="notes" type="string"/>
@@ -66,7 +70,7 @@
             </choice>
         </element>
         <element label="Store name" mandatory="true" max_length="100" name="store_name" type="string"/>
-        <element label="Store number" mandatory="true" max_length="40" name="store_number" type="integer" unique="true"/>
+        <element label="Store number" mandatory="true" max_length="40" name="store_number" type="integer"/>
         <element choice="1" label="Sub concept" max_length="40" name="sub_concept" type="choice">
             <choice/>
         </element>
@@ -80,9 +84,6 @@
             <element name="cost_center"/>
         </index>
         <index name="index2">
-            <element name="store_number"/>
-        </index>
-        <index name="index3">
             <element name="store_number"/>
         </index>
     </element>

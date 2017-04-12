@@ -5,9 +5,11 @@
         <element attributes="import_attribute_name=Brand,edge_encryption_enabled=true" label="Brand" max_length="40" name="u_brand" type="string"/>
         <element attributes="import_attribute_name=City,edge_encryption_enabled=true" label="City" max_length="40" name="u_city" type="string"/>
         <element attributes="import_attribute_name=Concept,edge_encryption_enabled=true" label="Concept" max_length="40" name="u_concept" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cost Center" max_length="40" name="u_cost_center" type="string"/>
         <element attributes="import_attribute_name=Country,edge_encryption_enabled=true" label="Country" max_length="100" name="u_country" type="string"/>
         <element attributes="import_attribute_name=Email,edge_encryption_enabled=true" label="Email" max_length="65" name="u_email" type="string"/>
         <element attributes="import_attribute_name=Franchise,edge_encryption_enabled=true" label="Franchise" max_length="40" name="u_franchise" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Hurley IT Store Number" max_length="40" name="u_hurley_it_store_number" type="string"/>
         <element attributes="import_attribute_name=Latitude" label="Latitude" max_length="40" name="u_latitude" type="float"/>
         <element attributes="import_attribute_name=Lease number,edge_encryption_enabled=true" label="Lease number" max_length="40" name="u_lease_number" type="string"/>
         <element attributes="import_attribute_name=Longitude" label="Longitude" max_length="40" name="u_longitude" type="float"/>
