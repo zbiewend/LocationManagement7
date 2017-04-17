@@ -4,77 +4,62 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_nike2_location_store" element="NULL" name="x_nike2_location_store" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">31aec54e4f8e76000b86ecee0210c724</list_id>
+            <list_id display_value="x_nike2_location_store" element="NULL" name="x_nike2_location_store" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e1f3da3b4f0632000b86ecee0210c707</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>ZBIEWE</sys_created_by>
-            <sys_created_on>2017-04-12 02:59:45</sys_created_on>
-            <sys_id>75aec54e4f8e76000b86ecee0210c724</sys_id>
+            <sys_created_on>2017-04-17 18:31:57</sys_created_on>
+            <sys_id>29f3da3b4f0632000b86ecee0210c707</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-04-12 02:59:45</sys_updated_on>
+            <sys_updated_on>2017-04-17 18:31:57</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>store_number</element>
-            <list_id display_value="x_nike2_location_store" element="NULL" name="x_nike2_location_store" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">31aec54e4f8e76000b86ecee0210c724</list_id>
+            <element>company</element>
+            <list_id display_value="x_nike2_location_store" element="NULL" name="x_nike2_location_store" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e1f3da3b4f0632000b86ecee0210c707</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>ZBIEWE</sys_created_by>
-            <sys_created_on>2017-04-12 02:59:45</sys_created_on>
-            <sys_id>f5aec54e4f8e76000b86ecee0210c724</sys_id>
+            <sys_created_on>2017-04-17 18:31:57</sys_created_on>
+            <sys_id>a9f3da3b4f0632000b86ecee0210c707</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-04-12 02:59:45</sys_updated_on>
+            <sys_updated_on>2017-04-17 18:31:57</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>company</element>
-            <list_id display_value="x_nike2_location_store" element="NULL" name="x_nike2_location_store" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">31aec54e4f8e76000b86ecee0210c724</list_id>
+            <element>parent</element>
+            <list_id display_value="x_nike2_location_store" element="NULL" name="x_nike2_location_store" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e1f3da3b4f0632000b86ecee0210c707</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>ZBIEWE</sys_created_by>
-            <sys_created_on>2017-04-12 02:59:45</sys_created_on>
-            <sys_id>79aec54e4f8e76000b86ecee0210c724</sys_id>
+            <sys_created_on>2017-04-17 18:31:57</sys_created_on>
+            <sys_id>2df3da3b4f0632000b86ecee0210c707</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-04-12 02:59:45</sys_updated_on>
+            <sys_updated_on>2017-04-17 18:31:57</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>parent</element>
-            <list_id display_value="x_nike2_location_store" element="NULL" name="x_nike2_location_store" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">31aec54e4f8e76000b86ecee0210c724</list_id>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_nike2_location_store" element="NULL" name="x_nike2_location_store" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e1f3da3b4f0632000b86ecee0210c707</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>ZBIEWE</sys_created_by>
-            <sys_created_on>2017-04-12 02:59:45</sys_created_on>
-            <sys_id>f9aec54e4f8e76000b86ecee0210c724</sys_id>
+            <sys_created_on>2017-04-17 18:31:57</sys_created_on>
+            <sys_id>adf3da3b4f0632000b86ecee0210c707</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-04-12 02:59:45</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>u_active</element>
-            <list_id display_value="x_nike2_location_store" element="NULL" name="x_nike2_location_store" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">31aec54e4f8e76000b86ecee0210c724</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>4</position>
-            <sum>false</sum>
-            <sys_created_by>ZBIEWE</sys_created_by>
-            <sys_created_on>2017-04-12 02:59:45</sys_created_on>
-            <sys_id>7daec54e4f8e76000b86ecee0210c724</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-04-12 02:59:45</sys_updated_on>
+            <sys_updated_on>2017-04-17 18:31:57</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -88,10 +73,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>ZBIEWE</sys_created_by>
-            <sys_created_on>2017-04-12 02:59:00</sys_created_on>
+            <sys_created_on>2017-04-17 18:31:56</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_id>aa7e8dc64f8e76000b86ecee0210c75a</sys_id>
+            <sys_id>e1f3da3b4f0632000b86ecee0210c707</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_nike2_location_store</sys_name>
             <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
@@ -100,7 +85,7 @@
             <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
             <sys_update_name>sys_ui_list_x_nike2_location_store_null</sys_update_name>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-04-12 02:59:00</sys_updated_on>
+            <sys_updated_on>2017-04-17 18:31:56</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
