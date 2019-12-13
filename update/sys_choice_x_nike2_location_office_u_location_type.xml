@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_location_type" table="x_nike2_location_office" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_location_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Factory</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>0</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-04-25 17:47:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0a96df124f52b600de2c0ad14210c707</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-04-25 18:21:19</sys_updated_on>
+            <value>Factory</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_location_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Warehouse</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>1</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-04-25 17:47:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ce96df124f52b600de2c0ad14210c707</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-04-25 18:21:19</sys_updated_on>
+            <value>Warehouse</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_location_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Showroom</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>2</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-04-25 17:47:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0696df124f52b600de2c0ad14210c708</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-04-25 18:21:19</sys_updated_on>
+            <value>Showroom</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_location_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sales</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>3</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-04-25 17:47:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4a96df124f52b600de2c0ad14210c708</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-04-25 17:47:52</sys_updated_on>
+            <value>Sales</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_location_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Liaison</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>4</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-04-25 17:47:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>8e96df124f52b600de2c0ad14210c708</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-04-25 17:47:52</sys_updated_on>
+            <value>Liaison</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_location_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Remote</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>5</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-04-25 17:47:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c296df124f52b600de2c0ad14210c709</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-04-25 17:47:52</sys_updated_on>
+            <value>Remote</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_location_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>STF depot</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>6</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-04-25 17:47:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0a96df124f52b600de2c0ad14210c709</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-04-25 17:47:52</sys_updated_on>
+            <value>STF depot</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_location_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Corporate</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>7</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-04-25 17:47:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4e96df124f52b600de2c0ad14210c709</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-04-25 17:47:52</sys_updated_on>
+            <value>Corporate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_location_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HQ</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>8</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-04-25 17:47:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>8296df124f52b600de2c0ad14210c70a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-04-25 17:47:52</sys_updated_on>
+            <value>HQ</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_location_type</element>
+            <name>x_nike2_location_office</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-04-25 17:47:52</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>1caa19fe4f1a76802b2ffaf01210c7ce</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>u_location_type</sys_name>
+            <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+            <sys_update_name>sys_choice_x_nike2_location_office_u_location_type</sys_update_name>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-04-25 18:21:19</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

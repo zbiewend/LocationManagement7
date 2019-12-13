@@ -1,13 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_script_fix">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
     <sys_script_fix action="INSERT_OR_UPDATE">
         <active>true</active>
         <before>false</before>
         <description>deletes all rows in location classes that are not cmn_location</description>
         <flush_cache>false</flush_cache>
         <name>delete all locations</name>
+        <record_for_rollback>false</record_for_rollback>
         <run_once>true</run_once>
-        <script><![CDATA[var classes = [
+        <script><![CDATA[// need to uncomment line 25 before running 
+// ( pull the pin from the grenade at your own risk... )
+
+var classes = [
 	'x_nike2_location_store',
 	'x_nike2_location_office',
 	'x_nike2_location_logistics_center',
@@ -28,15 +31,15 @@ for ( var i = 0; i < classes.length; ++i ) {
 	var gr = new GlideRecord( classes[ i ] );
 	gr.query();
 	while ( gr.next() ) {
-		gr.deleteRecord();
+		//gr.deleteRecord();
 	}
 }]]></script>
         <sys_class_name>sys_script_fix</sys_class_name>
         <sys_created_by>ZBIEWE</sys_created_by>
         <sys_created_on>2017-03-17 22:32:26</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
+        <sys_customer_update>true</sys_customer_update>
         <sys_id>f8e0a7394f6db6000b86ecee0210c790</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>delete all locations</sys_name>
         <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
         <sys_policy/>
@@ -44,7 +47,7 @@ for ( var i = 0; i < classes.length; ++i ) {
         <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
         <sys_update_name>sys_script_fix_f8e0a7394f6db6000b86ecee0210c790</sys_update_name>
         <sys_updated_by>ZBIEWE</sys_updated_by>
-        <sys_updated_on>2017-03-24 04:57:15</sys_updated_on>
+        <sys_updated_on>2017-09-19 20:53:55</sys_updated_on>
         <unloadable>false</unloadable>
     </sys_script_fix>
 </record_update>

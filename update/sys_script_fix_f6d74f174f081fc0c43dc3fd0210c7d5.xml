@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <before>false</before>
+        <description/>
+        <flush_cache>false</flush_cache>
+        <name>Data Center Schedule</name>
+        <record_for_rollback>false</record_for_rollback>
+        <run_once>true</run_once>
+        <script><![CDATA[var name=["APLA DATA CTR-Argentina","APLA DATA CTR-Brazil","APLA DATA CTR-Chile","APLA DATA CTR-Guadalajara","APLA DATA CTR-Icheon","APLA DATA CTR-Japan CSC -MDF","APLA DATA CTR-Japan Tokyo -MDF","APLA DATA CTR-Mexico City","APLA DATA CTR-Singapore","APLA DATA CTR-Tokyo","APLA DATA CTR-Uruguay","EMEA DATA CTR-Hilversum","EMEA DATA CTR-Laakdal","EMEA DATA CTR-London","EMEA DATA CTR-Russia","GC DATA CTR-China CLC -MDF","GC DATA CTR-Hong Kong","GC DATA CTR-Korea CSC -MDF","GC DATA CTR-Shanghai","GC DATA CTR-Singapore","GC DATA CTR-Tokyo","NA DATA CTR-Aloclek (WHQ)","NA DATA CTR-Amberglen","NA DATA CTR-Boston (Converse)","NA DATA CTR-Costa Mesa (Hurley)","NA DATA CTR-Dallas","NA DATA CTR-Foothill Ranch","NA DATA CTR-Hoffer Ranch (Converse)","NA DATA CTR-Hollywood","NA DATA CTR-Las Vegas -Switch","NA DATA CTR-Memphis Center Pointe (NFL)","NA DATA CTR-Memphis DATA CTR2 Shelby G","NA DATA CTR-Memphis NALC","NA DATA CTR-Memphis Shelby","NA DATA CTR-Mia Hamm","NA DATA CTR-Mike Schmidt","NA DATA CTR-Ontario CA (Converse)","NA DATA CTR-San Jose","NA DATA CTR-St. Charles (IHM)","NA DATA CTR-Thornhill Canada","NA DATA CTR-Virginia","NA DATA CTR-Winchester"];
+var sch=["08:00-18:00 M-F","08:00-18:00 M-F","08:00-18:00 M-F","08:00-18:00 M-F","07:00-19:00 M-F","07:00-19:00 M-F","07:00-19:00 M-F","08:00-18:00 M-F","08:30-17:30 M-F","07:00-19:00 M-F","08:00-18:00 M-F","07:00-18:00 M-F","07:00-18:00 M-F","08:00-17:30 M-F","08:00-19:00 M-F","07:00-19:00 M-F","07:00-19:00 M-F","07:00-19:00 M-F","09:00-18:00 M-F","08:30-17:30 M-F","07:00-19:00 M-F","08:00-17:30 M-F","08:00-17:30 M-F","07:00-17:30 M-F","07:00-18:00 M-F","08:30-17:00 M-F","09:00-18:00 M-F","07:00-19:00 M-F","08:30-17:00 M-F","08:30-17:00 M-F","07:00-19:00 M-F","07:00-19:00 M-F","07:00-19:00 M-F","07:00-19:00 M-F","08:00-17:30 M-F","08:00-17:30 M-F","07:00-19:00 M-F","08:30-17:00 M-F","08:00-17:30 M-F","08:30-17:00 M-F","08:30-17:00 M-F","07:00-19:00 M-F"];
+
+
+if(name.length == sch.length){
+	for(var ind=0;ind<name.length;ind++){
+		
+		var gr= new GlideRecord('x_nike2_location_data_center');
+		//gr.addQuery('sys_class_name',source.u_class);
+		gr.addActiveQuery();
+		gr.addQuery('name',name[ind]);
+		gr.query();
+		if(gr.next()){
+			
+			//log.info("Inside Office Transform: "+name[ind] );
+			var schedule= new GlideRecord('cmn_schedule');
+			schedule.addQuery('name',sch[ind]);
+			schedule.query();
+			if(schedule.next()){
+				gr.u_support_schedule= schedule.sys_id+'';
+				gr.update();
+				
+			}else{
+				gs.info("Office Transform: sch "+sch[ind] );
+			}
+			
+		}
+		else{
+			gs.info("Office Transform: name "+name[ind] );
+		}
+		
+	}
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>VSai1</sys_created_by>
+        <sys_created_on>2018-02-08 15:21:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f6d74f174f081fc0c43dc3fd0210c7d5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Data Center Schedule</sys_name>
+        <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+        <sys_update_name>sys_script_fix_f6d74f174f081fc0c43dc3fd0210c7d5</sys_update_name>
+        <sys_updated_by>VSai1</sys_updated_by>
+        <sys_updated_on>2018-03-01 01:58:05</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>ben.vargas</sys_created_by>
+        <sys_created_on>2017-05-05 18:45:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9b6343ed4fe6ba4090a942fd0210c70b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.nike_master_roster_admin</sys_name>
+        <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+        <sys_security_acl display_value="x_nike2_location_office">e6638bad4fe6ba4090a942fd0210c7c1</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_9b6343ed4fe6ba4090a942fd0210c70b</sys_update_name>
+        <sys_updated_by>ben.vargas</sys_updated_by>
+        <sys_updated_on>2017-05-05 18:45:28</sys_updated_on>
+        <sys_user_role display_value="nike_master_roster_admin" name="nike_master_roster_admin">17ac34f44f66be00c43dc3fd0210c736</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

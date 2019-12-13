@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Store activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_nike2_location_store_activity.fields</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>ZBIEWE</sys_created_by>
+        <sys_created_on>2017-06-28 20:37:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b94369834f6f3ec0e4dfecee0210c75f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_nike2_location_store_activity.fields</sys_name>
+        <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+        <sys_update_name>sys_properties_b94369834f6f3ec0e4dfecee0210c75f</sys_update_name>
+        <sys_updated_by>ZBIEWE</sys_updated_by>
+        <sys_updated_on>2017-06-28 20:37:58</sys_updated_on>
+        <type>string</type>
+        <value>name,sys_class_name,parent,sys_updated_on,u_active,u_campus,city,company,concept,contact,cost_center,country,u_country_code,sys_created_on,sys_created_by,u_description,u_email,fax_phone,franchise,full_name,u_geography,u_global,it_number,u_language,lat_long_error,latitude,lease_number,u_location_type,longitude,u_management_country,merchant_id,u_neighborhood,notes,open_date,phone,phone_number,phone_territory,pilot,primary_currency,sap_id,u_sla_region,u_selectable,sell_area,state,status,stock_room,u_store_code,store_name,store_number,street,sub_concept,u_sub_geography,u_sub_management_country,u_sub_territory,u_super_geography,u_support_schedule,sys_tags,u_territory,time_zone,u_top_level_geography,top_door,sys_updated_by,sys_mod_count,zip,*Email*,*Relations*,*Attachments*</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=b94369834f6f3ec0e4dfecee0210c75f"/>
+</record_update>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="sub_concept" table="x_nike2_location_store" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sub_concept</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Cloud Assist</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>0</sequence>
+            <sys_created_by>JLit16</sys_created_by>
+            <sys_created_on>2018-12-03 13:42:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b6bbd553dbcae3c4901a6165ca9619df</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>RJimme</sys_updated_by>
+            <sys_updated_on>2019-02-01 20:59:09</sys_updated_on>
+            <value>Cloud Assist</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sub_concept</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Partially Supported</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>0</sequence>
+            <sys_created_by>RJimme</sys_created_by>
+            <sys_created_on>2019-02-01 20:59:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>940ffb66dbdb2f00f6b2ab92ca961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>RJimme</sys_updated_by>
+            <sys_updated_on>2019-02-01 20:59:09</sys_updated_on>
+            <value>Partially Supported</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sub_concept</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Data and Integration</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>1</sequence>
+            <sys_created_by>JLit16</sys_created_by>
+            <sys_created_on>2018-12-03 13:42:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fabb1d93dbcae3c4901a6165ca9619ab</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>RJimme</sys_updated_by>
+            <sys_updated_on>2019-02-01 20:59:09</sys_updated_on>
+            <value>Data and Integration</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sub_concept</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TechOps Supported</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>1</sequence>
+            <sys_created_by>RJimme</sys_created_by>
+            <sys_created_on>2019-02-01 20:59:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e80ff3a6dbdb2f00f6b2ab92ca961927</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>RJimme</sys_updated_by>
+            <sys_updated_on>2019-02-01 20:59:09</sys_updated_on>
+            <value>TechOps Supported</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Partner</dependent_value>
+            <element>sub_concept</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Nike Infrastructure</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>2</sequence>
+            <sys_created_by>JLit16</sys_created_by>
+            <sys_created_on>2018-12-03 13:42:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7ebbd553dbcae3c4901a6165ca9619dd</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>RJimme</sys_updated_by>
+            <sys_updated_on>2019-02-01 20:59:09</sys_updated_on>
+            <value>Nike Infrastructure</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>sub_concept</element>
+            <name>x_nike2_location_store</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>JLit16</sys_created_by>
+            <sys_created_on>2018-12-03 13:42:45</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>4243333cdbe2e784be565055ca96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sub_concept</sys_name>
+            <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+            <sys_update_name>sys_choice_x_nike2_location_store_sub_concept</sys_update_name>
+            <sys_updated_by>JLit16</sys_updated_by>
+            <sys_updated_on>2018-12-03 13:42:45</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

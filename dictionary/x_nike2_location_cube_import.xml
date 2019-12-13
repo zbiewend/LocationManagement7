@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="cube_import" max_length="40" name="x_nike2_location_cube_import" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Approver 1" label="Approver 1" max_length="40" name="u_approver_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Approver 2" label="Approver 2" max_length="40" name="u_approver_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Building Code" label="Building Code" max_length="40" name="u_building_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Category Description" label="Category Description" max_length="40" name="u_category_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Comments" label="Comments" max_length="40" name="u_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Department Code" label="Department Code" max_length="40" name="u_department_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Department Name" label="Department Name" max_length="40" name="u_department_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Division Code" label="Division Code" max_length="40" name="u_division_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Division Name" label="Division Name" max_length="40" name="u_division_name" type="string"/>
+        <element attributes="import_attribute_name=Employee Capacity" label="Employee Capacity" max_length="40" name="u_employee_capacity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Floor Code" label="Floor Code" max_length="40" name="u_floor_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Key/Lock Type" label="Key/Lock Type" max_length="40" name="u_key_lock_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Ownership" label="Ownership" max_length="40" name="u_ownership" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=RoomName" label="RoomName" max_length="40" name="u_roomname" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Room Category" label="Room Category" max_length="40" name="u_room_category" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Room Code" label="Room Code" max_length="40" name="u_room_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Room Type" label="Room Type" max_length="40" name="u_room_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Type Description" label="Type Description" max_length="40" name="u_type_description" type="string"/>
+    </element>
+</database>

@@ -1,83 +1,96 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element audit="true" extends="cmn_location" label="Store" max_length="40" name="x_nike2_location_store" type="collection">
-        <element choice="1" label="Concept" max_length="100" name="concept" type="choice">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="hasLabels=true" audit="true" extends="cmn_location" label="Store" max_length="40" name="x_nike2_location_store" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Alternate/After Hours Phone" max_length="40" name="alternate_phone_number" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Concept" max_length="100" name="concept" type="choice">
             <choice>
-                <element label="Employee Store" sequence="0" value="Employee Store"/>
-                <element label="Inline" sequence="0" value="Inline"/>
-                <element label="Inline Store" sequence="0" value="Inline Store"/>
-                <element label="Standard" sequence="0" value="Standard"/>
-                <element label="Factory" sequence="1" value="Factory"/>
-                <element label="Clearance" sequence="2" value="Clearance"/>
-                <element label="Concept" sequence="3" value="Concept"/>
-                <element label="Partner" sequence="4" value="Partner"/>
-                <element label="Franchise" sequence="5" value="Franchise"/>
-                <element label="Concession" sequence="6" value="Concession"/>
-                <element label="Community" sequence="7" value="Community"/>
+                <element inactive_on_update="false" label="Clearance" sequence="0" value="Clearance"/>
+                <element inactive="true" inactive_on_update="true" label="Employee Store" sequence="0" value="Employee Store"/>
+                <element inactive_on_update="false" label="Community" sequence="1" value="Community"/>
+                <element inactive="true" inactive_on_update="true" label="Inline Store" sequence="1" value="Inline Store"/>
+                <element inactive_on_update="false" label="Concept" sequence="2" value="Concept"/>
+                <element inactive_on_update="false" label="Concession" sequence="3" value="Concession"/>
+                <element inactive_on_update="false" label="Employee" sequence="4" value="Employee"/>
+                <element inactive_on_update="false" label="Factory" sequence="5" value="Factory"/>
+                <element inactive_on_update="false" label="Flagship" sequence="6" value="Flagship"/>
+                <element inactive_on_update="false" label="Franchise" sequence="7" value="Franchise"/>
+                <element inactive_on_update="false" label="Inline" sequence="8" value="Inline"/>
+                <element inactive_on_update="false" label="Partner" sequence="9" value="Partner"/>
+                <element inactive_on_update="false" label="Standard" sequence="10" value="Standard"/>
             </choice>
         </element>
-        <element label="Cost center" max_length="32" name="cost_center" reference="cmn_cost_center" type="reference"/>
-        <element choice="1" label="Franchise" max_length="40" name="franchise" type="choice">
+        <element attributes="edge_encryption_enabled=true" label="Cost center" max_length="32" name="cost_center" reference="cmn_cost_center" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Franchise" max_length="40" name="franchise" type="choice">
             <choice>
-                <element label="Yes" sequence="0" value="Yes"/>
-                <element label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
             </choice>
         </element>
         <element label="IT number" max_length="40" name="it_number" type="string"/>
         <element label="Lease number" max_length="40" name="lease_number" type="string"/>
         <element label="Merchant ID" max_length="40" name="merchant_id" type="string"/>
         <element label="Notes" max_length="4000" name="notes" type="string"/>
-        <element label="Open date" max_length="40" name="open_date" type="glide_date"/>
-        <element label="Phone" max_length="40" name="phone_number" type="phone_number_e164"/>
-        <element choice="1" label="Pilot" max_length="40" name="pilot" type="choice">
+        <element attributes="edge_encryption_enabled=true" label="Open date" max_length="40" name="open_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Partner Name" max_length="40" name="partner_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone" max_length="40" name="phone_number" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Pilot" max_length="40" name="pilot" type="choice">
             <choice>
-                <element label="Yes" sequence="0" value="Yes"/>
-                <element label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
             </choice>
         </element>
-        <element choice="1" label="Primary currency" max_length="40" name="primary_currency" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Primary currency" max_length="40" name="primary_currency" type="choice">
             <choice>
-                <element label="BRL" sequence="0" value="BRL"/>
-                <element label="CHF" sequence="0" value="CHF"/>
-                <element label="CNY" sequence="0" value="CNY"/>
-                <element label="CZK" sequence="0" value="CZK"/>
-                <element label="DKK" sequence="0" value="DKK"/>
-                <element label="EUR" sequence="0" value="EUR"/>
-                <element label="GBP" sequence="0" value="GBP"/>
-                <element label="HKD" sequence="0" value="HKD"/>
-                <element label="HRK" sequence="0" value="HRK"/>
-                <element label="HUF" sequence="0" value="HUF"/>
-                <element label="ILS" sequence="0" value="ILS"/>
-                <element label="JPY" sequence="0" value="JPY"/>
-                <element label="NOK" sequence="0" value="NOK"/>
-                <element label="PLN" sequence="0" value="PLN"/>
-                <element label="RUB" sequence="0" value="RUB"/>
-                <element label="SEK" sequence="0" value="SEK"/>
-                <element label="TRY" sequence="0" value="TRY"/>
-                <element label="TWD" sequence="0" value="TWD"/>
-                <element label="USD" sequence="0" value="USD"/>
-                <element label="ZAR" sequence="0" value="ZAR"/>
+                <element inactive_on_update="false" label="BRL" sequence="0" value="BRL"/>
+                <element inactive_on_update="false" label="CHF" sequence="0" value="CHF"/>
+                <element inactive_on_update="false" label="CNY" sequence="0" value="CNY"/>
+                <element inactive_on_update="false" label="CZK" sequence="0" value="CZK"/>
+                <element inactive_on_update="false" label="DKK" sequence="0" value="DKK"/>
+                <element inactive_on_update="false" label="EUR" sequence="0" value="EUR"/>
+                <element inactive_on_update="false" label="GBP" sequence="0" value="GBP"/>
+                <element inactive_on_update="false" label="HKD" sequence="0" value="HKD"/>
+                <element inactive_on_update="false" label="HRK" sequence="0" value="HRK"/>
+                <element inactive_on_update="false" label="HUF" sequence="0" value="HUF"/>
+                <element inactive_on_update="false" label="ILS" sequence="0" value="ILS"/>
+                <element inactive_on_update="false" label="JPY" sequence="0" value="JPY"/>
+                <element inactive_on_update="false" label="NOK" sequence="0" value="NOK"/>
+                <element inactive_on_update="false" label="PLN" sequence="0" value="PLN"/>
+                <element inactive_on_update="false" label="RUB" sequence="0" value="RUB"/>
+                <element inactive_on_update="false" label="SEK" sequence="0" value="SEK"/>
+                <element inactive_on_update="false" label="TRY" sequence="0" value="TRY"/>
+                <element inactive_on_update="false" label="TWD" sequence="0" value="TWD"/>
+                <element inactive_on_update="false" label="USD" sequence="0" value="USD"/>
+                <element inactive_on_update="false" label="UYU" sequence="0" value="UYU"/>
+                <element inactive_on_update="false" label="ZAR" sequence="0" value="ZAR"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" dependent="retail_territory" dependent_on_field="retail_territory" label="Retail District" max_length="32" name="retail_district" reference="x_nike2_location_retail_district" reference_qual="javascript: 'retail_territory='+current.retail_territory;" type="reference" use_dependent_field="true" use_reference_qualifier="advanced"/>
+        <element attributes="edge_encryption_enabled=true" label="Retail Territory" max_length="32" name="retail_territory" reference="x_nike2_location_retail_territory" reference_qual="javascript: new StoreRecordUtils().getRetailTerritories(current);" type="reference" use_reference_qualifier="advanced"/>
         <element label="SAP ID" max_length="40" name="sap_id" type="string"/>
-        <element label="Sell area" max_length="40" name="sell_area" type="integer"/>
-        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+        <element attributes="edge_encryption_enabled=true" label="Sell area" max_length="40" name="sell_area" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="choice">
             <choice>
-                <element label="Pre-open (NSO)" sequence="0" value="pre_open"/>
-                <element label="Open" sequence="1" value="open"/>
-                <element label="Remodel" sequence="2" value="remodel"/>
-                <element label="Closed (retired)" sequence="3" value="closed"/>
+                <element inactive_on_update="false" label="Pre-open (NSO)" sequence="0" value="pre_open"/>
+                <element inactive_on_update="false" label="Open" sequence="1" value="open"/>
+                <element inactive_on_update="false" label="Remodel" sequence="2" value="remodel"/>
+                <element inactive_on_update="false" label="Closed (retired)" sequence="3" value="closed"/>
             </choice>
         </element>
         <element label="Store name" mandatory="true" max_length="100" name="store_name" type="string"/>
-        <element label="Store number" mandatory="true" max_length="40" name="store_number" type="integer"/>
-        <element choice="1" label="Sub concept" max_length="40" name="sub_concept" type="choice">
-            <choice/>
-        </element>
-        <element choice="1" label="Top door" max_length="40" name="top_door" type="choice">
+        <element attributes="format=none,edge_encryption_enabled=true" label="Store number" mandatory="true" max_length="40" name="store_number" type="integer"/>
+        <element label="Store number (string)" max_length="40" name="store_number_string" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sub concept" max_length="40" name="sub_concept" type="choice">
             <choice>
-                <element label="Yes" sequence="0" value="Yes"/>
-                <element label="No" sequence="1" value="No"/>
+                <element inactive="true" inactive_on_update="true" label="Cloud Assist" sequence="0" value="Cloud Assist"/>
+                <element inactive_on_update="false" label="Partially Supported" sequence="0" value="Partially Supported"/>
+                <element inactive="true" inactive_on_update="true" label="Data and Integration" sequence="1" value="Data and Integration"/>
+                <element inactive_on_update="false" label="TechOps Supported" sequence="1" value="TechOps Supported"/>
+                <element dependent_value="Partner" inactive="true" inactive_on_update="true" label="Nike Infrastructure" sequence="2" value="Nike Infrastructure"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Top door" max_length="40" name="top_door" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
             </choice>
         </element>
         <index name="index">
@@ -85,6 +98,12 @@
         </index>
         <index name="index2">
             <element name="store_number"/>
+        </index>
+        <index name="index3">
+            <element name="retail_district"/>
+        </index>
+        <index name="index4">
+            <element name="retail_territory"/>
         </index>
     </element>
 </database>

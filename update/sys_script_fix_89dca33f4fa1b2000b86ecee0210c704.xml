@@ -1,14 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_script_fix">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
     <sys_script_fix action="INSERT_OR_UPDATE">
         <active>true</active>
         <before>false</before>
         <description/>
         <flush_cache>false</flush_cache>
         <name>force sync hierarchy</name>
+        <record_for_rollback>false</record_for_rollback>
         <run_once>true</run_once>
         <script><![CDATA[var gr = new GlideRecord( 'cmn_location' );
-gr.addQuery( 'sys_class_name', '!=', 'cmn_location' );
+//gr.addQuery( 'sys_class_name', '!=', 'cmn_location' );
+gr.addQuery( 'sys_class_name!=cmn_location^ORu_location_type!=' );
 gr.query();
 var hh = new x_nike2_location.HierarchyHelper();
 while ( gr.next() )
@@ -38,7 +39,7 @@ while ( gr.next() )
         <sys_created_on>2017-03-24 04:30:24</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>89dca33f4fa1b2000b86ecee0210c704</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>force sync hierarchy</sys_name>
         <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
         <sys_policy/>
@@ -46,7 +47,7 @@ while ( gr.next() )
         <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
         <sys_update_name>sys_script_fix_89dca33f4fa1b2000b86ecee0210c704</sys_update_name>
         <sys_updated_by>ZBIEWE</sys_updated_by>
-        <sys_updated_on>2017-03-24 04:50:49</sys_updated_on>
+        <sys_updated_on>2017-04-25 21:58:36</sys_updated_on>
         <unloadable>false</unloadable>
     </sys_script_fix>
 </record_update>

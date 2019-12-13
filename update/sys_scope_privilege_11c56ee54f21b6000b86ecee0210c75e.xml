@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_scope_privilege">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
     <sys_scope_privilege action="INSERT_OR_UPDATE">
         <operation>write</operation>
         <source_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</source_scope>

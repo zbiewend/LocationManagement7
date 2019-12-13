@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmn_location" label="Retail District" max_length="40" name="x_nike2_location_retail_district" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Retail Territory" max_length="32" name="retail_territory" reference="x_nike2_location_retail_territory" type="reference"/>
+        <index name="index">
+            <element name="retail_territory"/>
+        </index>
+    </element>
+</database>

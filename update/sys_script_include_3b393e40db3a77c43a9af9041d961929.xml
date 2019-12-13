@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_nike2_location.StoreRecordUtils</api_name>
+        <client_callable>true</client_callable>
+        <description>Script Include to populate Retail Territories/Districts.</description>
+        <name>StoreRecordUtils</name>
+        <script><![CDATA[var StoreRecordUtils = Class.create();
+StoreRecordUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	getRetailTerritories: function(store){
+
+		var sysIds ='';
+		var territoryRec = new GlideRecord('x_nike2_location_retail_territory');
+		// 			if(store.u_management_country != ''){
+		// 				territoryRec.addQuery('u_management_country',store.u_management_country);
+		// 			}
+		territoryRec.addQuery('u_geography', store.u_geography);
+		territoryRec.addActiveQuery();
+		territoryRec.query();
+		while(territoryRec.next()){
+			sysIds+= territoryRec.sys_id + ',';
+		}
+		return 'sys_idIN'+sysIds;
+
+	},
+
+	getRetailDistricts: function(store){
+
+		var sysIds = '';
+		var districtRec = new GlideRecord('x_nike2_location_retail_districts');
+		districtRec.addQuery('retail_territory', store.retail_territory);
+		districtRec.addActiveQuery();
+		districtRec.query();
+		while(districtRec.next()){
+			sysIds += districtRec.sys_id+ ',';
+		}
+
+		if(sysIds != ''){
+			return 'sys_idIN' + sysIds;
+		}else{
+			return '';
+		}
+		
+	},
+
+
+	type: 'StoreRecordUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>VSai1</sys_created_by>
+        <sys_created_on>2019-07-17 21:31:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3b393e40db3a77c43a9af9041d961929</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>StoreRecordUtils</sys_name>
+        <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+        <sys_update_name>sys_script_include_3b393e40db3a77c43a9af9041d961929</sys_update_name>
+        <sys_updated_by>ARobb5</sys_updated_by>
+        <sys_updated_on>2019-08-06 19:29:29</sys_updated_on>
+    </sys_script_include>
+</record_update>

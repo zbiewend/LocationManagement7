@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>ignore</choice_action>
+        <coalesce>true</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd hh:mm:ss</date_format>
+        <map display_value="Location import">5d8ac42e4f92b600de2c0ad14210c790</map>
+        <reference_value_field>sys_id</reference_value_field>
+        <source_field>[Script]</source_field>
+        <source_script>answer = (function transformEntry(source) {&#13;
+&#13;
+	var b = '';&#13;
+	if ( source.u_company == 'Nike' )&#13;
+		b = '7d72b7fe8863f100b98be142464129f0'; // Nike&#13;
+	else if ( source.u_brand == 'Converse' )&#13;
+		b = '8dc2f02831ff35005d498ac5f279dc96'; // Converse&#13;
+	else if ( source.u_brand == 'Hurley' )&#13;
+		b = '20b8aa2431f375005d498ac5f279dca8'; // Hurley&#13;
+&#13;
+	return b;&#13;
+&#13;
+})(source);</source_script>
+        <source_table>x_nike2_location_location_import</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>ZBIEWE</sys_created_by>
+        <sys_created_on>2017-04-25 21:38:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e40b882e4f92b600de2c0ad14210c769</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+        <sys_update_name>sys_transform_entry_e40b882e4f92b600de2c0ad14210c769</sys_update_name>
+        <sys_updated_by>ZBIEWE</sys_updated_by>
+        <sys_updated_on>2017-04-25 21:38:51</sys_updated_on>
+        <target_field>company</target_field>
+        <target_table>cmn_location</target_table>
+        <use_source_script>true</use_source_script>
+    </sys_transform_entry>
+</record_update>

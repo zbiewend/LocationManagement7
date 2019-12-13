@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_transform_script">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
     <sys_transform_script action="INSERT_OR_UPDATE">
         <active>true</active>
         <map display_value="03 SLA region - campus">94dc26454fb936000b86ecee0210c791</map>

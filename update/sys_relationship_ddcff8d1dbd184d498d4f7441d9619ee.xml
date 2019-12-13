@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_nike2_location_store</basic_apply_to>
+        <basic_query_from>sc_req_item</basic_query_from>
+        <insert_callback/>
+        <name>Health Checks</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+	current.addQuery('cat_item', 'c2a1466e4fdeba0090a942fd0210c73b'); //Retail Quarterly Visits
+	current.addQuery('variables.9f920a624f12fa0090a942fd0210c7ca', parent.sys_id+'');
+
+})(current, parent);]]></query_with>
+        <reference_field>agile_story</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>ARobb5</sys_created_by>
+        <sys_created_on>2019-11-22 16:16:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ddcff8d1dbd184d498d4f7441d9619ee</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Health Checks</sys_name>
+        <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+        <sys_update_name>sys_relationship_ddcff8d1dbd184d498d4f7441d9619ee</sys_update_name>
+        <sys_updated_by>ARobb5</sys_updated_by>
+        <sys_updated_on>2019-11-22 16:24:34</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=ddcff8d1dbd184d498d4f7441d9619ee"/>
+</record_update>

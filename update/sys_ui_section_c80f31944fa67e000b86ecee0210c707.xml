@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="c80f31944fa67e000b86ecee0210c707" sys_domain="global" table="x_nike2_location_store" version="3" view="sys_popup">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>ARobb5</sys_created_by>
+            <sys_created_on>2019-03-21 15:02:31</sys_created_on>
+            <sys_id>9cb975cadb103b843a9af9041d961907</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_store" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">c80f31944fa67e000b86ecee0210c707</sys_ui_section>
+            <sys_updated_by>ARobb5</sys_updated_by>
+            <sys_updated_on>2019-03-21 15:02:31</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>1</position>
+            <sys_created_by>ARobb5</sys_created_by>
+            <sys_created_on>2019-03-21 15:02:31</sys_created_on>
+            <sys_id>14b975cadb103b843a9af9041d961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_store" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">c80f31944fa67e000b86ecee0210c707</sys_ui_section>
+            <sys_updated_by>ARobb5</sys_updated_by>
+            <sys_updated_on>2019-03-21 15:02:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>2</position>
+            <sys_created_by>ARobb5</sys_created_by>
+            <sys_created_on>2019-03-21 15:02:31</sys_created_on>
+            <sys_id>94b975cadb103b843a9af9041d961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_store" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">c80f31944fa67e000b86ecee0210c707</sys_ui_section>
+            <sys_updated_by>ARobb5</sys_updated_by>
+            <sys_updated_on>2019-03-21 15:02:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>ARobb5</sys_created_by>
+            <sys_created_on>2019-03-21 15:02:31</sys_created_on>
+            <sys_id>18b975cadb103b843a9af9041d961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_store" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">c80f31944fa67e000b86ecee0210c707</sys_ui_section>
+            <sys_updated_by>ARobb5</sys_updated_by>
+            <sys_updated_on>2019-03-21 15:02:31</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent</element>
+            <position>4</position>
+            <sys_created_by>ARobb5</sys_created_by>
+            <sys_created_on>2019-03-21 15:02:31</sys_created_on>
+            <sys_id>98b975cadb103b843a9af9041d961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_store" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">c80f31944fa67e000b86ecee0210c707</sys_ui_section>
+            <sys_updated_by>ARobb5</sys_updated_by>
+            <sys_updated_on>2019-03-21 15:02:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company</element>
+            <position>5</position>
+            <sys_created_by>ARobb5</sys_created_by>
+            <sys_created_on>2019-03-21 15:02:31</sys_created_on>
+            <sys_id>1cb975cadb103b843a9af9041d961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_store" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">c80f31944fa67e000b86ecee0210c707</sys_ui_section>
+            <sys_updated_by>ARobb5</sys_updated_by>
+            <sys_updated_on>2019-03-21 15:02:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>ARobb5</sys_created_by>
+            <sys_created_on>2019-03-21 15:02:31</sys_created_on>
+            <sys_id>9cb975cadb103b843a9af9041d961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_store" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">c80f31944fa67e000b86ecee0210c707</sys_ui_section>
+            <sys_updated_by>ARobb5</sys_updated_by>
+            <sys_updated_on>2019-03-21 15:02:31</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>7</position>
+            <sys_created_by>ARobb5</sys_created_by>
+            <sys_created_on>2019-03-21 15:02:31</sys_created_on>
+            <sys_id>10b975cadb103b843a9af9041d961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_store" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">c80f31944fa67e000b86ecee0210c707</sys_ui_section>
+            <sys_updated_by>ARobb5</sys_updated_by>
+            <sys_updated_on>2019-03-21 15:02:31</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>street</element>
+            <position>8</position>
+            <sys_created_by>ARobb5</sys_created_by>
+            <sys_created_on>2019-03-21 15:02:31</sys_created_on>
+            <sys_id>90b975cadb103b843a9af9041d961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_store" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">c80f31944fa67e000b86ecee0210c707</sys_ui_section>
+            <sys_updated_by>ARobb5</sys_updated_by>
+            <sys_updated_on>2019-03-21 15:02:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>city</element>
+            <position>9</position>
+            <sys_created_by>ARobb5</sys_created_by>
+            <sys_created_on>2019-03-21 15:02:31</sys_created_on>
+            <sys_id>14b975cadb103b843a9af9041d961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_store" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">c80f31944fa67e000b86ecee0210c707</sys_ui_section>
+            <sys_updated_by>ARobb5</sys_updated_by>
+            <sys_updated_on>2019-03-21 15:02:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>10</position>
+            <sys_created_by>ARobb5</sys_created_by>
+            <sys_created_on>2019-03-21 15:02:31</sys_created_on>
+            <sys_id>94b975cadb103b843a9af9041d961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_store" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">c80f31944fa67e000b86ecee0210c707</sys_ui_section>
+            <sys_updated_by>ARobb5</sys_updated_by>
+            <sys_updated_on>2019-03-21 15:02:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>zip</element>
+            <position>11</position>
+            <sys_created_by>ARobb5</sys_created_by>
+            <sys_created_on>2019-03-21 15:02:31</sys_created_on>
+            <sys_id>18b975cadb103b843a9af9041d961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_store" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">c80f31944fa67e000b86ecee0210c707</sys_ui_section>
+            <sys_updated_by>ARobb5</sys_updated_by>
+            <sys_updated_on>2019-03-21 15:02:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>country</element>
+            <position>12</position>
+            <sys_created_by>ARobb5</sys_created_by>
+            <sys_created_on>2019-03-21 15:02:31</sys_created_on>
+            <sys_id>98b975cadb103b843a9af9041d961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_store" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">c80f31944fa67e000b86ecee0210c707</sys_ui_section>
+            <sys_updated_by>ARobb5</sys_updated_by>
+            <sys_updated_on>2019-03-21 15:02:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>13</position>
+            <sys_created_by>ARobb5</sys_created_by>
+            <sys_created_on>2019-03-21 15:02:31</sys_created_on>
+            <sys_id>1cb975cadb103b843a9af9041d961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_store" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">c80f31944fa67e000b86ecee0210c707</sys_ui_section>
+            <sys_updated_by>ARobb5</sys_updated_by>
+            <sys_updated_on>2019-03-21 15:02:31</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_language</element>
+            <position>14</position>
+            <sys_created_by>ARobb5</sys_created_by>
+            <sys_created_on>2019-03-21 15:02:31</sys_created_on>
+            <sys_id>9cb975cadb103b843a9af9041d961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_store" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">c80f31944fa67e000b86ecee0210c707</sys_ui_section>
+            <sys_updated_by>ARobb5</sys_updated_by>
+            <sys_updated_on>2019-03-21 15:02:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>time_zone</element>
+            <position>15</position>
+            <sys_created_by>ARobb5</sys_created_by>
+            <sys_created_on>2019-03-21 15:02:31</sys_created_on>
+            <sys_id>10b975cadb103b843a9af9041d96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_store" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">c80f31944fa67e000b86ecee0210c707</sys_ui_section>
+            <sys_updated_by>ARobb5</sys_updated_by>
+            <sys_updated_on>2019-03-21 15:02:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>top_door</element>
+            <position>16</position>
+            <sys_created_by>ARobb5</sys_created_by>
+            <sys_created_on>2019-03-21 15:02:31</sys_created_on>
+            <sys_id>90b975cadb103b843a9af9041d96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_store" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">c80f31944fa67e000b86ecee0210c707</sys_ui_section>
+            <sys_updated_by>ARobb5</sys_updated_by>
+            <sys_updated_on>2019-03-21 15:02:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phone_number</element>
+            <position>17</position>
+            <sys_created_by>ARobb5</sys_created_by>
+            <sys_created_on>2019-03-21 15:02:31</sys_created_on>
+            <sys_id>14b975cadb103b843a9af9041d96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_store" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">c80f31944fa67e000b86ecee0210c707</sys_ui_section>
+            <sys_updated_by>ARobb5</sys_updated_by>
+            <sys_updated_on>2019-03-21 15:02:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>alternate_phone_number</element>
+            <position>18</position>
+            <sys_created_by>ARobb5</sys_created_by>
+            <sys_created_on>2019-03-21 15:02:31</sys_created_on>
+            <sys_id>94b975cadb103b843a9af9041d96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_store" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">c80f31944fa67e000b86ecee0210c707</sys_ui_section>
+            <sys_updated_by>ARobb5</sys_updated_by>
+            <sys_updated_on>2019-03-21 15:02:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>19</position>
+            <sys_created_by>ARobb5</sys_created_by>
+            <sys_created_on>2019-03-21 15:02:31</sys_created_on>
+            <sys_id>18b975cadb103b843a9af9041d96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_store" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">c80f31944fa67e000b86ecee0210c707</sys_ui_section>
+            <sys_updated_by>ARobb5</sys_updated_by>
+            <sys_updated_on>2019-03-21 15:02:31</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_nike2_location_store</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-05-01 16:33:01</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>c80f31944fa67e000b86ecee0210c707</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_nike2_location_store</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+            <sys_update_name>sys_ui_section_c80f31944fa67e000b86ecee0210c707</sys_update_name>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-05-01 16:33:01</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Sys_popup" name="sys_popup">c7402b100a0a0b8400cf971d83ee4384</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

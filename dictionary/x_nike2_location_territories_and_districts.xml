@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Territories and Districts" max_length="40" name="x_nike2_location_territories_and_districts" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Geography" label="Geography" max_length="40" name="u_geography" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Retail District" label="Retail District" max_length="40" name="u_retail_district" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Retail Territory" label="Retail Territory" max_length="40" name="u_retail_territory" type="string"/>
+    </element>
+</database>

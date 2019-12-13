@@ -1,47 +1,102 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_related sys_domain="global" table="x_nike2_location_store" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Store - Default view" name="x_nike2_location_store" related_list="NULL" sys_domain="global" view="Default view">cbb8548d4fa936000b86ecee0210c7aa</list_id>
+            <list_id display_value="Store - Default view" name="x_nike2_location_store" related_list="NULL" sys_domain="global" view="Default view">8d04c591db1584d498d4f7441d9619b5</list_id>
             <order_by/>
             <position>0</position>
             <related_list>cmdb_ci.location</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>ZBIEWE</sys_created_by>
-            <sys_created_on>2017-03-14 23:58:53</sys_created_on>
-            <sys_id>13b8548d4fa936000b86ecee0210c7ab</sys_id>
+            <sys_created_by>ARobb5</sys_created_by>
+            <sys_created_on>2019-11-22 16:26:31</sys_created_on>
+            <sys_id>8d04c591db1584d498d4f7441d9619b6</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-14 23:58:53</sys_updated_on>
+            <sys_updated_by>ARobb5</sys_updated_by>
+            <sys_updated_on>2019-11-22 16:26:31</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Store - Default view" name="x_nike2_location_store" related_list="NULL" sys_domain="global" view="Default view">cbb8548d4fa936000b86ecee0210c7aa</list_id>
+            <list_id display_value="Store - Default view" name="x_nike2_location_store" related_list="NULL" sys_domain="global" view="Default view">8d04c591db1584d498d4f7441d9619b5</list_id>
             <order_by/>
             <position>1</position>
-            <related_list>change_request.u_impacted_locations</related_list>
+            <related_list>change_request.u_locations</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>ZBIEWE</sys_created_by>
-            <sys_created_on>2017-03-14 23:58:53</sys_created_on>
-            <sys_id>d3b8548d4fa936000b86ecee0210c7ab</sys_id>
+            <sys_created_by>ARobb5</sys_created_by>
+            <sys_created_on>2019-11-22 16:26:31</sys_created_on>
+            <sys_id>4904c591db1584d498d4f7441d9619b7</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-14 23:58:53</sys_updated_on>
+            <sys_updated_by>ARobb5</sys_updated_by>
+            <sys_updated_on>2019-11-22 16:26:31</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Store - Default view" name="x_nike2_location_store" related_list="NULL" sys_domain="global" view="Default view">cbb8548d4fa936000b86ecee0210c7aa</list_id>
+            <list_id display_value="Store - Default view" name="x_nike2_location_store" related_list="NULL" sys_domain="global" view="Default view">8d04c591db1584d498d4f7441d9619b5</list_id>
             <order_by/>
             <position>2</position>
-            <related_list>incident.u_impacted_locations</related_list>
+            <related_list>incident.u_impacted_user_location</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>ZBIEWE</sys_created_by>
-            <sys_created_on>2017-03-14 23:58:53</sys_created_on>
-            <sys_id>5bb8d8014fe936000b86ecee0210c739</sys_id>
+            <sys_created_by>ARobb5</sys_created_by>
+            <sys_created_on>2019-11-22 16:26:31</sys_created_on>
+            <sys_id>cd04c591db1584d498d4f7441d9619b7</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-14 23:58:53</sys_updated_on>
+            <sys_updated_by>ARobb5</sys_updated_by>
+            <sys_updated_on>2019-11-22 16:26:31</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Store - Default view" name="x_nike2_location_store" related_list="NULL" sys_domain="global" view="Default view">8d04c591db1584d498d4f7441d9619b5</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>REL:ddcff8d1dbd184d498d4f7441d9619ee</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ARobb5</sys_created_by>
+            <sys_created_on>2019-11-22 16:26:31</sys_created_on>
+            <sys_id>4504c591db1584d498d4f7441d9619b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ARobb5</sys_updated_by>
+            <sys_updated_on>2019-11-22 16:26:31</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Store - Default view" name="x_nike2_location_store" related_list="NULL" sys_domain="global" view="Default view">8d04c591db1584d498d4f7441d9619b5</list_id>
+            <order_by/>
+            <position>4</position>
+            <related_list>u_store_ip_range.u_location</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ARobb5</sys_created_by>
+            <sys_created_on>2019-11-22 16:26:31</sys_created_on>
+            <sys_id>c904c591db1584d498d4f7441d9619b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ARobb5</sys_updated_by>
+            <sys_updated_on>2019-11-22 16:26:31</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Store - Default view" name="x_nike2_location_store" related_list="NULL" sys_domain="global" view="Default view">8d04c591db1584d498d4f7441d9619b5</list_id>
+            <order_by/>
+            <position>5</position>
+            <related_list>sys_user.location</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ARobb5</sys_created_by>
+            <sys_created_on>2019-11-22 16:26:31</sys_created_on>
+            <sys_id>4104c591db1584d498d4f7441d9619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ARobb5</sys_updated_by>
+            <sys_updated_on>2019-11-22 16:26:31</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Store - Default view" name="x_nike2_location_store" related_list="NULL" sys_domain="global" view="Default view">8d04c591db1584d498d4f7441d9619b5</list_id>
+            <order_by/>
+            <position>6</position>
+            <related_list>alm_asset.location</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ARobb5</sys_created_by>
+            <sys_created_on>2019-11-22 16:26:31</sys_created_on>
+            <sys_id>c504c591db1584d498d4f7441d9619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ARobb5</sys_updated_by>
+            <sys_updated_on>2019-11-22 16:26:31</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Store - Default view</calculated_name>
@@ -51,11 +106,11 @@
             <position/>
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
-            <sys_created_by>ZBIEWE</sys_created_by>
-            <sys_created_on>2017-03-14 23:58:53</sys_created_on>
+            <sys_created_by>ARobb5</sys_created_by>
+            <sys_created_on>2019-11-22 16:26:31</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_id>cbb8548d4fa936000b86ecee0210c7aa</sys_id>
+            <sys_id>8d04c591db1584d498d4f7441d9619b5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Store - Default view</sys_name>
             <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
@@ -63,8 +118,8 @@
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
             <sys_update_name>sys_ui_related_x_nike2_location_store_null</sys_update_name>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-14 23:58:53</sys_updated_on>
+            <sys_updated_by>ARobb5</sys_updated_by>
+            <sys_updated_on>2019-11-22 16:26:31</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

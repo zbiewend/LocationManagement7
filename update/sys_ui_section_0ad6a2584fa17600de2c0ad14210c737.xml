@@ -1,73 +1,86 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="0ad6a2584fa17600de2c0ad14210c737" sys_domain="global" table="x_nike2_location_logistics_center" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>name</element>
             <position>0</position>
-            <sys_created_by>ZBIEWE</sys_created_by>
-            <sys_created_on>2017-03-13 02:27:07</sys_created_on>
-            <sys_id>d7772e584fa17600de2c0ad14210c730</sys_id>
+            <sys_created_by>elliott.allan</sys_created_by>
+            <sys_created_on>2017-06-28 16:13:55</sys_created_on>
+            <sys_id>31d6a8cb4f27b60090a942fd0210c767</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_logistics_center" sys_domain="global" view="Default view">0ad6a2584fa17600de2c0ad14210c737</sys_ui_section>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-13 02:27:07</sys_updated_on>
+            <sys_updated_by>elliott.allan</sys_updated_by>
+            <sys_updated_on>2017-06-28 16:13:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_active</element>
             <position>1</position>
-            <sys_created_by>ZBIEWE</sys_created_by>
-            <sys_created_on>2017-03-13 02:27:07</sys_created_on>
-            <sys_id>5b772e584fa17600de2c0ad14210c730</sys_id>
+            <sys_created_by>elliott.allan</sys_created_by>
+            <sys_created_on>2017-06-28 16:13:55</sys_created_on>
+            <sys_id>b1d6a8cb4f27b60090a942fd0210c767</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_logistics_center" sys_domain="global" view="Default view">0ad6a2584fa17600de2c0ad14210c737</sys_ui_section>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-13 02:27:07</sys_updated_on>
+            <sys_updated_by>elliott.allan</sys_updated_by>
+            <sys_updated_on>2017-06-28 16:13:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>master_roster</element>
+            <position>2</position>
+            <sys_created_by>elliott.allan</sys_created_by>
+            <sys_created_on>2017-06-28 16:13:55</sys_created_on>
+            <sys_id>35d6a8cb4f27b60090a942fd0210c767</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_logistics_center" sys_domain="global" view="Default view">0ad6a2584fa17600de2c0ad14210c737</sys_ui_section>
+            <sys_updated_by>elliott.allan</sys_updated_by>
+            <sys_updated_on>2017-06-28 16:13:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
-            <sys_created_by>ZBIEWE</sys_created_by>
-            <sys_created_on>2017-03-13 02:27:07</sys_created_on>
-            <sys_id>db772e584fa17600de2c0ad14210c730</sys_id>
+            <position>3</position>
+            <sys_created_by>elliott.allan</sys_created_by>
+            <sys_created_on>2017-06-28 16:13:55</sys_created_on>
+            <sys_id>b5d6a8cb4f27b60090a942fd0210c767</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_logistics_center" sys_domain="global" view="Default view">0ad6a2584fa17600de2c0ad14210c737</sys_ui_section>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-13 02:27:07</sys_updated_on>
+            <sys_updated_by>elliott.allan</sys_updated_by>
+            <sys_updated_on>2017-06-28 16:13:55</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>parent</element>
-            <position>3</position>
-            <sys_created_by>ZBIEWE</sys_created_by>
-            <sys_created_on>2017-03-13 02:27:07</sys_created_on>
-            <sys_id>5f772e584fa17600de2c0ad14210c730</sys_id>
+            <position>4</position>
+            <sys_created_by>elliott.allan</sys_created_by>
+            <sys_created_on>2017-06-28 16:13:55</sys_created_on>
+            <sys_id>39d6a8cb4f27b60090a942fd0210c767</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_logistics_center" sys_domain="global" view="Default view">0ad6a2584fa17600de2c0ad14210c737</sys_ui_section>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-13 02:27:07</sys_updated_on>
+            <sys_updated_by>elliott.allan</sys_updated_by>
+            <sys_updated_on>2017-06-28 16:13:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>company</element>
-            <position>4</position>
-            <sys_created_by>ZBIEWE</sys_created_by>
-            <sys_created_on>2017-03-13 02:27:07</sys_created_on>
-            <sys_id>df772e584fa17600de2c0ad14210c730</sys_id>
+            <position>5</position>
+            <sys_created_by>elliott.allan</sys_created_by>
+            <sys_created_on>2017-06-28 16:13:55</sys_created_on>
+            <sys_id>b9d6a8cb4f27b60090a942fd0210c767</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_logistics_center" sys_domain="global" view="Default view">0ad6a2584fa17600de2c0ad14210c737</sys_ui_section>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-13 02:27:07</sys_updated_on>
+            <sys_updated_by>elliott.allan</sys_updated_by>
+            <sys_updated_on>2017-06-28 16:13:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -82,7 +95,7 @@
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_id>0ad6a2584fa17600de2c0ad14210c737</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_name>x_nike2_location_logistics_center</sys_name>
             <sys_overrides/>
             <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
@@ -90,8 +103,8 @@
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
             <sys_update_name>sys_ui_section_0ad6a2584fa17600de2c0ad14210c737</sys_update_name>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-13 02:24:18</sys_updated_on>
+            <sys_updated_by>elliott.allan</sys_updated_by>
+            <sys_updated_on>2017-06-28 16:13:55</sys_updated_on>
             <sys_user/>
             <title>true</title>
             <view display_value="Default view" name="NULL">Default view</view>

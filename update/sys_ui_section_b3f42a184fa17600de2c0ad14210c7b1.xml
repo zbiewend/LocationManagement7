@@ -1,59 +1,72 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Details" section_id="b3f42a184fa17600de2c0ad14210c7b1" sys_domain="global" table="x_nike2_location_super_geography" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_language</element>
             <position>0</position>
-            <sys_created_by>ZBIEWE</sys_created_by>
-            <sys_created_on>2017-03-13 02:16:14</sys_created_on>
-            <sys_id>f7f42a184fa17600de2c0ad14210c7b2</sys_id>
+            <sys_created_by>michael.thrasher</sys_created_by>
+            <sys_created_on>2018-05-30 13:23:34</sys_created_on>
+            <sys_id>2606d20f4f1e1b84c43dc3fd0210c758</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Details" display_value="Details" name="x_nike2_location_super_geography" sys_domain="global" view="Default view">b3f42a184fa17600de2c0ad14210c7b1</sys_ui_section>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-13 02:16:14</sys_updated_on>
+            <sys_updated_by>michael.thrasher</sys_updated_by>
+            <sys_updated_on>2018-05-30 13:23:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_sla_region</element>
             <position>1</position>
-            <sys_created_by>ZBIEWE</sys_created_by>
-            <sys_created_on>2017-03-13 02:16:14</sys_created_on>
-            <sys_id>7bf42a184fa17600de2c0ad14210c7b2</sys_id>
+            <sys_created_by>michael.thrasher</sys_created_by>
+            <sys_created_on>2018-05-30 13:23:34</sys_created_on>
+            <sys_id>a606d20f4f1e1b84c43dc3fd0210c758</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Details" display_value="Details" name="x_nike2_location_super_geography" sys_domain="global" view="Default view">b3f42a184fa17600de2c0ad14210c7b1</sys_ui_section>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-13 02:16:14</sys_updated_on>
+            <sys_updated_by>michael.thrasher</sys_updated_by>
+            <sys_updated_on>2018-05-30 13:23:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>2</position>
-            <sys_created_by>ZBIEWE</sys_created_by>
-            <sys_created_on>2017-03-13 02:16:14</sys_created_on>
-            <sys_id>fbf42a184fa17600de2c0ad14210c7b2</sys_id>
+            <sys_created_by>michael.thrasher</sys_created_by>
+            <sys_created_on>2018-05-30 13:23:34</sys_created_on>
+            <sys_id>2a06d20f4f1e1b84c43dc3fd0210c758</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Details" display_value="Details" name="x_nike2_location_super_geography" sys_domain="global" view="Default view">b3f42a184fa17600de2c0ad14210c7b1</sys_ui_section>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-13 02:16:14</sys_updated_on>
+            <sys_updated_by>michael.thrasher</sys_updated_by>
+            <sys_updated_on>2018-05-30 13:23:34</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_support_schedule</element>
             <position>3</position>
-            <sys_created_by>ZBIEWE</sys_created_by>
-            <sys_created_on>2017-03-13 02:16:14</sys_created_on>
-            <sys_id>7ff42a184fa17600de2c0ad14210c7b2</sys_id>
+            <sys_created_by>michael.thrasher</sys_created_by>
+            <sys_created_on>2018-05-30 13:23:34</sys_created_on>
+            <sys_id>aa06d20f4f1e1b84c43dc3fd0210c758</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Details" display_value="Details" name="x_nike2_location_super_geography" sys_domain="global" view="Default view">b3f42a184fa17600de2c0ad14210c7b1</sys_ui_section>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-13 02:16:14</sys_updated_on>
+            <sys_updated_by>michael.thrasher</sys_updated_by>
+            <sys_updated_on>2018-05-30 13:23:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_travel_time</element>
+            <position>4</position>
+            <sys_created_by>michael.thrasher</sys_created_by>
+            <sys_created_on>2018-05-30 13:23:34</sys_created_on>
+            <sys_id>2e06d20f4f1e1b84c43dc3fd0210c758</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Details" display_value="Details" name="x_nike2_location_super_geography" sys_domain="global" view="Default view">b3f42a184fa17600de2c0ad14210c7b1</sys_ui_section>
+            <sys_updated_by>michael.thrasher</sys_updated_by>
+            <sys_updated_on>2018-05-30 13:23:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="time_zone" table="x_nike2_location_office" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -14,10 +13,64 @@
             <sys_created_on>2017-03-15 01:38:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>0f8f64854f2d36000b86ecee0210c7d3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-15 01:38:33</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:56</sys_updated_on>
             <value>Canada/Atlantic</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>US/Montevideo</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>1</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>352127fedb5900d45941575e5e9619aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:56</sys_updated_on>
+            <value>US/Montevideo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>US/Puerto_Rico</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>2</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>792127fedb5900d45941575e5e9619ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:56</sys_updated_on>
+            <value>US/Puerto_Rico</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AET</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>3</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-04-26 18:22:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e7186cbe4fd2f600de2c0ad14210c7dc</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:56</sys_updated_on>
+            <value>AET</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -27,14 +80,14 @@
             <label>Canada/Central</label>
             <language>en</language>
             <name>x_nike2_location_office</name>
-            <sequence>1</sequence>
+            <sequence>4</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-15 01:38:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>078f64854f2d36000b86ecee0210c7d4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-15 01:38:33</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:56</sys_updated_on>
             <value>Canada/Central</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -45,14 +98,14 @@
             <label>Canada/Eastern</label>
             <language>en</language>
             <name>x_nike2_location_office</name>
-            <sequence>2</sequence>
+            <sequence>5</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-15 01:38:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>4b8f64854f2d36000b86ecee0210c7d4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-15 01:38:33</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:56</sys_updated_on>
             <value>Canada/Eastern</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -63,14 +116,14 @@
             <label>Canada/Mountain</label>
             <language>en</language>
             <name>x_nike2_location_office</name>
-            <sequence>3</sequence>
+            <sequence>6</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-15 01:38:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>8f8f64854f2d36000b86ecee0210c7d4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-15 01:38:33</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:56</sys_updated_on>
             <value>Canada/Mountain</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -81,15 +134,33 @@
             <label>Canada/Pacific</label>
             <language>en</language>
             <name>x_nike2_location_office</name>
-            <sequence>4</sequence>
+            <sequence>7</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-15 01:38:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>c38f64854f2d36000b86ecee0210c7d5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-15 01:38:33</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:56</sys_updated_on>
             <value>Canada/Pacific</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Africa/Algiers</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>8</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b12127fedb5900d45941575e5e9619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:56</sys_updated_on>
+            <value>Africa/Algiers</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -99,14 +170,14 @@
             <label>Europe/Amsterdam</label>
             <language>en</language>
             <name>x_nike2_location_office</name>
-            <sequence>5</sequence>
+            <sequence>9</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-15 01:38:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>0b8f64854f2d36000b86ecee0210c7d5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-15 01:38:33</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:56</sys_updated_on>
             <value>Europe/Amsterdam</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -117,14 +188,14 @@
             <label>Europe/Berlin</label>
             <language>en</language>
             <name>x_nike2_location_office</name>
-            <sequence>6</sequence>
+            <sequence>10</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-15 01:38:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>5f8f64854f2d36000b86ecee0210c7d5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-15 01:38:33</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:56</sys_updated_on>
             <value>Europe/Berlin</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -135,14 +206,14 @@
             <label>Europe/Brussels</label>
             <language>en</language>
             <name>x_nike2_location_office</name>
-            <sequence>7</sequence>
+            <sequence>11</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-15 01:38:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>938f64854f2d36000b86ecee0210c7d6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-15 01:38:33</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:56</sys_updated_on>
             <value>Europe/Brussels</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -153,14 +224,14 @@
             <label>Europe/Copenhagen</label>
             <language>en</language>
             <name>x_nike2_location_office</name>
-            <sequence>8</sequence>
+            <sequence>12</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-15 01:38:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>d78f64854f2d36000b86ecee0210c7d6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-15 01:38:33</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:56</sys_updated_on>
             <value>Europe/Copenhagen</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -171,14 +242,14 @@
             <label>Europe/Dublin</label>
             <language>en</language>
             <name>x_nike2_location_office</name>
-            <sequence>9</sequence>
+            <sequence>13</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-15 01:38:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>1f8f64854f2d36000b86ecee0210c7d6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-15 01:38:33</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:56</sys_updated_on>
             <value>Europe/Dublin</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -189,14 +260,14 @@
             <label>Europe/London</label>
             <language>en</language>
             <name>x_nike2_location_office</name>
-            <sequence>10</sequence>
+            <sequence>14</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-15 01:38:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>538f64854f2d36000b86ecee0210c7d7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-15 01:38:33</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
             <value>Europe/London</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -207,14 +278,14 @@
             <label>Europe/Madrid</label>
             <language>en</language>
             <name>x_nike2_location_office</name>
-            <sequence>11</sequence>
+            <sequence>15</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-15 01:38:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>978f64854f2d36000b86ecee0210c7d7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-15 01:38:33</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
             <value>Europe/Madrid</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -225,14 +296,14 @@
             <label>Europe/Paris</label>
             <language>en</language>
             <name>x_nike2_location_office</name>
-            <sequence>12</sequence>
+            <sequence>16</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-15 01:38:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>db8f64854f2d36000b86ecee0210c7d7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-15 01:38:33</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
             <value>Europe/Paris</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -243,15 +314,33 @@
             <label>Europe/Rome</label>
             <language>en</language>
             <name>x_nike2_location_office</name>
-            <sequence>13</sequence>
+            <sequence>17</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-15 01:38:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>138f64854f2d36000b86ecee0210c7d8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-15 01:38:33</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
             <value>Europe/Rome</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Africa/Cairo</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>18</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b12127fedb5900d45941575e5e9619cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Africa/Cairo</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -261,15 +350,33 @@
             <label>Europe/Stockholm</label>
             <language>en</language>
             <name>x_nike2_location_office</name>
-            <sequence>14</sequence>
+            <sequence>19</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-15 01:38:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>578f64854f2d36000b86ecee0210c7d8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-15 01:38:33</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
             <value>Europe/Stockholm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Africa/Casablanca</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>20</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>792127fedb5900d45941575e5e9619e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Africa/Casablanca</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -279,14 +386,14 @@
             <label>Europe/Zurich</label>
             <language>en</language>
             <name>x_nike2_location_office</name>
-            <sequence>15</sequence>
+            <sequence>21</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-15 01:38:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>9b8f64854f2d36000b86ecee0210c7d8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-15 01:38:33</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
             <value>Europe/Zurich</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -297,14 +404,14 @@
             <label>GMT</label>
             <language>en</language>
             <name>x_nike2_location_office</name>
-            <sequence>16</sequence>
+            <sequence>22</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-15 01:38:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>df8f64854f2d36000b86ecee0210c7d8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-15 01:38:33</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
             <value>GMT</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -315,14 +422,14 @@
             <label>Hongkong</label>
             <language>en</language>
             <name>x_nike2_location_office</name>
-            <sequence>17</sequence>
+            <sequence>23</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-15 01:38:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>178f64854f2d36000b86ecee0210c7d9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-15 01:38:33</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
             <value>Hongkong</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -333,14 +440,14 @@
             <label>US/Arizona</label>
             <language>en</language>
             <name>x_nike2_location_office</name>
-            <sequence>18</sequence>
+            <sequence>24</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-15 01:38:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>5b8f64854f2d36000b86ecee0210c7d9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-15 01:38:33</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
             <value>US/Arizona</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -351,14 +458,14 @@
             <label>US/Central</label>
             <language>en</language>
             <name>x_nike2_location_office</name>
-            <sequence>19</sequence>
+            <sequence>25</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-15 01:38:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>9f8f64854f2d36000b86ecee0210c7d9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-15 01:38:33</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
             <value>US/Central</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -369,14 +476,14 @@
             <label>US/Eastern</label>
             <language>en</language>
             <name>x_nike2_location_office</name>
-            <sequence>20</sequence>
+            <sequence>26</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-15 01:38:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>d38f64854f2d36000b86ecee0210c7da</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-15 01:38:33</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
             <value>US/Eastern</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -387,14 +494,14 @@
             <label>US/Hawaii</label>
             <language>en</language>
             <name>x_nike2_location_office</name>
-            <sequence>21</sequence>
+            <sequence>27</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-15 01:38:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>1b8f64854f2d36000b86ecee0210c7da</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-15 01:38:33</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
             <value>US/Hawaii</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -405,14 +512,14 @@
             <label>US/Mountain</label>
             <language>en</language>
             <name>x_nike2_location_office</name>
-            <sequence>22</sequence>
+            <sequence>28</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-15 01:38:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>5f8f64854f2d36000b86ecee0210c7da</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-15 01:38:33</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
             <value>US/Mountain</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -423,14 +530,14 @@
             <label>US/Pacific</label>
             <language>en</language>
             <name>x_nike2_location_office</name>
-            <sequence>23</sequence>
+            <sequence>29</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-15 01:38:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>938f64854f2d36000b86ecee0210c7db</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-15 01:38:33</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
             <value>US/Pacific</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -441,14 +548,14 @@
             <label>America/Los_Angeles</label>
             <language>en</language>
             <name>x_nike2_location_office</name>
-            <sequence>24</sequence>
+            <sequence>30</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-15 01:38:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>d78f64854f2d36000b86ecee0210c7db</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-15 01:38:33</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
             <value>America/Los_Angeles</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -459,15 +566,879 @@
             <label>US/Pacific-New</label>
             <language>en</language>
             <name>x_nike2_location_office</name>
-            <sequence>25</sequence>
+            <sequence>31</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-15 01:38:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>1f8f64854f2d36000b86ecee0210c7db</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-15 01:38:33</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
             <value>US/Pacific-New</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Africa/Johannesburg</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>32</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>712167fedb5900d45941575e5e961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Africa/Johannesburg</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Africa/Lagos</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>33</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b52167fedb5900d45941575e5e961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Africa/Lagos</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Africa/Nairobi</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>34</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f92167fedb5900d45941575e5e961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Africa/Nairobi</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>America/Belem</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>35</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>312167fedb5900d45941575e5e961907</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>America/Belem</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>America/Buenos_Aires</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>36</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>752167fedb5900d45941575e5e961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>America/Buenos_Aires</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>America/Cancun</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>37</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b92167fedb5900d45941575e5e961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>America/Cancun</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>America/Hermosillo</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>38</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fd2167fedb5900d45941575e5e96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>America/Hermosillo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>America/Lima</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>39</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f92167fedb5900d45941575e5e961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>America/Lima</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>America/Mexico_City</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>40</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-04-26 19:39:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>80b970b64f16f600de2c0ad14210c7ff</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>America/Mexico_City</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>America/Montevideo</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>41</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>352167fedb5900d45941575e5e96191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>America/Montevideo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>America/Panama</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>42</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>792167fedb5900d45941575e5e96191c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>America/Panama</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>America/Puerto_Rico</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>43</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>bd2167fedb5900d45941575e5e96191d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>America/Puerto_Rico</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>America/Santiago</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>44</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f12167fedb5900d45941575e5e96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>America/Santiago</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>America/Sao_Paulo</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>45</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>392167fedb5900d45941575e5e961920</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>America/Sao_Paulo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>America/Tijuana</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>46</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7d2167fedb5900d45941575e5e961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>America/Tijuana</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Almaty</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>47</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b12167fedb5900d45941575e5e961923</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Almaty</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Amman</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>48</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>bd2167fedb5900d45941575e5e961930</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Amman</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Bahrain</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>49</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f12167fedb5900d45941575e5e961932</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Bahrain</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Baku</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>50</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>392167fedb5900d45941575e5e961933</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Baku</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Bangkok</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>51</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7d2167fedb5900d45941575e5e961934</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Bangkok</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Beirut</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>52</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b12167fedb5900d45941575e5e961936</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Beirut</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Dubai</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>53</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f52167fedb5900d45941575e5e961937</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Dubai</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Dushanbe</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>54</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3d2167fedb5900d45941575e5e961938</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Dushanbe</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Hong_Kong</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>55</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>712167fedb5900d45941575e5e96193a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Hong_Kong</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Istanbul</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>56</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b52167fedb5900d45941575e5e96193b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Istanbul</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Jakarta</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>57</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f92167fedb5900d45941575e5e96193c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Jakarta</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Jerusalem</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>58</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>312167fedb5900d45941575e5e96193e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Jerusalem</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Kuala_Lumpur</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>59</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>752167fedb5900d45941575e5e96193f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Kuala_Lumpur</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Kuwait</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>60</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b92167fedb5900d45941575e5e961940</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Kuwait</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Macau</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>61</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fd2167fedb5900d45941575e5e961941</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Macau</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Manila</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>62</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>352167fedb5900d45941575e5e961943</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Manila</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Muscat</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>63</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>792167fedb5900d45941575e5e961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Muscat</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Novosibirsk</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>64</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>bd2167fedb5900d45941575e5e961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Novosibirsk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Qatar</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>65</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c22167fedb5900d45941575e5e961947</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Qatar</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Riyadh</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>66</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0a2167fedb5900d45941575e5e961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Riyadh</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Saigon</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>67</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4e2167fedb5900d45941575e5e961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Saigon</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Seoul</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>68</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>822167fedb5900d45941575e5e96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Seoul</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Shanghai</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>69</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c62167fedb5900d45941575e5e96194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Shanghai</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Singapore</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>70</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0e2167fedb5900d45941575e5e96194d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Singapore</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Taipei</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>71</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>422167fedb5900d45941575e5e96194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Taipei</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Tashkent</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>72</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>862167fedb5900d45941575e5e961950</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Tashkent</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Tel_Aviv</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>73</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ca2167fedb5900d45941575e5e961951</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Tel_Aviv</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Tokyo</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>74</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>022167fedb5900d45941575e5e961953</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Tokyo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Yekaterinburg</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>75</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>462167fedb5900d45941575e5e961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Yekaterinburg</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Yerevan</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>76</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>8a2167fedb5900d45941575e5e961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Asia/Yerevan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Atlantic/Canary</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>77</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ce2167fedb5900d45941575e5e961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Atlantic/Canary</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Australia/Queensland</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>78</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>062167fedb5900d45941575e5e961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Australia/Queensland</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Australia/Victoria</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>79</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4a2167fedb5900d45941575e5e961959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Australia/Victoria</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -477,15 +1448,645 @@
             <label>CET</label>
             <language>en</language>
             <name>x_nike2_location_office</name>
-            <sequence>321</sequence>
+            <sequence>80</sequence>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-15 21:47:50</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>955409d94f2576000b86ecee0210c7ea</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-15 21:47:50</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
             <value>CET</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Andorra</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>81</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>822167fedb5900d45941575e5e96195c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Europe/Andorra</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Athens</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>82</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c62167fedb5900d45941575e5e96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Europe/Athens</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Belgrade</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>83</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0e2167fedb5900d45941575e5e96195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Europe/Belgrade</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Bratislava</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>84</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>422167fedb5900d45941575e5e961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Europe/Bratislava</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Bucharest</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>85</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>862167fedb5900d45941575e5e961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Europe/Bucharest</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Budapest</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>86</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ca2167fedb5900d45941575e5e961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Europe/Budapest</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Gibraltar</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>87</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>022167fedb5900d45941575e5e961964</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Europe/Gibraltar</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Helsinki</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>88</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>462167fedb5900d45941575e5e961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Europe/Helsinki</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Istanbul</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>89</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>8a2167fedb5900d45941575e5e961966</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Europe/Istanbul</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Kiev</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>90</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ce2167fedb5900d45941575e5e961967</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Europe/Kiev</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Lisbon</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>91</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>062167fedb5900d45941575e5e961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Europe/Lisbon</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Ljubljana</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>92</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4a2167fedb5900d45941575e5e96196a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Europe/Ljubljana</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Malta</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>93</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>8e2167fedb5900d45941575e5e96196b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Europe/Malta</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Minsk</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>94</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c22167fedb5900d45941575e5e96196d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Europe/Minsk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Monaco</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>95</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0a2167fedb5900d45941575e5e96196e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Europe/Monaco</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Moscow</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>96</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>062167fedb5900d45941575e5e96197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Europe/Moscow</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Oslo</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>97</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4a2167fedb5900d45941575e5e96197d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Europe/Oslo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Prague</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>98</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>8e2167fedb5900d45941575e5e96197e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Europe/Prague</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Riga</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>99</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c22167fedb5900d45941575e5e961980</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Europe/Riga</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Samara</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>100</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0a2167fedb5900d45941575e5e961981</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Europe/Samara</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Sofia</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>101</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4e2167fedb5900d45941575e5e961982</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Europe/Sofia</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Tallinn</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>102</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>822167fedb5900d45941575e5e961984</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Europe/Tallinn</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Tiraspol</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>103</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c62167fedb5900d45941575e5e961985</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:57</sys_updated_on>
+            <value>Europe/Tiraspol</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Vienna</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>104</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0e2167fedb5900d45941575e5e961986</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:58</sys_updated_on>
+            <value>Europe/Vienna</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Vilnius</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>105</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0a2167fedb5900d45941575e5e961994</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:58</sys_updated_on>
+            <value>Europe/Vilnius</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Warsaw</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>106</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4e2167fedb5900d45941575e5e961995</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:58</sys_updated_on>
+            <value>Europe/Warsaw</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Zagreb</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>107</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>822167fedb5900d45941575e5e961997</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:58</sys_updated_on>
+            <value>Europe/Zagreb</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Indian/Mauritius</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>108</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c62167fedb5900d45941575e5e961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:58</sys_updated_on>
+            <value>Indian/Mauritius</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Indian/Mayotte</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>109</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0e2167fedb5900d45941575e5e961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:58</sys_updated_on>
+            <value>Indian/Mayotte</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Indian/Reunion</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>110</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>422167fedb5900d45941575e5e96199b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:58</sys_updated_on>
+            <value>Indian/Reunion</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IST</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>111</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>862167fedb5900d45941575e5e96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:58</sys_updated_on>
+            <value>IST</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>JST</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>112</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-04-26 18:22:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>2f186cbe4fd2f600de2c0ad14210c7dc</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:58</sys_updated_on>
+            <value>JST</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pacific/Auckland</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>113</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ce2167fedb5900d45941575e5e96199e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:58</sys_updated_on>
+            <value>Pacific/Auckland</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PST</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>114</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>062167fedb5900d45941575e5e9619a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:58</sys_updated_on>
+            <value>PST</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Vientiane</label>
+            <language>en</language>
+            <name>x_nike2_location_office</name>
+            <sequence>115</sequence>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2019-11-27 19:43:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4a2167fedb5900d45941575e5e9619a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2019-11-27 19:43:58</sys_updated_on>
+            <value>Asia/Vientiane</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>time_zone</element>
@@ -494,8 +2095,8 @@
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-15 01:38:33</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>98bdb97b4f067200de2c0ad14210c77e</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_id>164bddb24f5a76802b2ffaf01210c737</sys_id>
+            <sys_mod_count>5</sys_mod_count>
             <sys_name>time_zone</sys_name>
             <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
             <sys_policy/>
@@ -503,7 +2104,7 @@
             <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
             <sys_update_name>sys_choice_x_nike2_location_office_time_zone</sys_update_name>
             <sys_updated_by>ZBIEWE</sys_updated_by>
-            <sys_updated_on>2017-03-15 01:38:33</sys_updated_on>
+            <sys_updated_on>2017-04-26 18:25:24</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

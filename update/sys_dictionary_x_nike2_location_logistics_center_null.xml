@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_nike2_location_logistics_center">
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="cmn_location" table="x_nike2_location_logistics_center">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <array_denormalized>false</array_denormalized>
+        <attributes>hasLabels=true</attributes>
         <audit>true</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -30,6 +30,8 @@
         <element/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
         <internal_type display_value="Collection">collection</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
@@ -52,7 +54,7 @@
         <sys_created_by>ZBIEWE</sys_created_by>
         <sys_created_on>2017-03-12 00:07:02</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>457dfd3b4f067200de2c0ad14210c708</sys_id>
+        <sys_id>0dc1bebb4f8e7600cad3a35e0210c721</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_nike2_location_logistics_center</sys_name>
         <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
@@ -61,7 +63,7 @@
         <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
         <sys_update_name>sys_dictionary_x_nike2_location_logistics_center_NULL</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-04-17 16:54:12</sys_updated_on>
+        <sys_updated_on>2017-04-17 20:42:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <u_last_refreshed/>

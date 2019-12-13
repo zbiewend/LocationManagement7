@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="lc_type" table="x_nike2_location_logistics_center" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>lc_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Nike-owned</label>
+            <language>en</language>
+            <name>x_nike2_location_logistics_center</name>
+            <sequence>0</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-04-24 19:52:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>9079aac24f5a7600de2c0ad14210c70a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-04-24 19:52:06</sys_updated_on>
+            <value>Nike-owned</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>lc_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Third party logistics</label>
+            <language>en</language>
+            <name>x_nike2_location_logistics_center</name>
+            <sequence>1</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-04-24 19:52:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d189ea064f5a7600de2c0ad14210c782</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-04-24 19:52:27</sys_updated_on>
+            <value>Third party logistics</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>lc_type</element>
+            <name>x_nike2_location_logistics_center</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-04-24 19:52:06</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>08aa19fe4f1a76802b2ffaf01210c7c8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>lc_type</sys_name>
+            <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+            <sys_update_name>sys_choice_x_nike2_location_logistics_center_lc_type</sys_update_name>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-04-24 19:52:06</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

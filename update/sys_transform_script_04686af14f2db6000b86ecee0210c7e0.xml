@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_transform_script">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
     <sys_transform_script action="INSERT_OR_UPDATE">
         <active>true</active>
         <map display_value="store">7f1fdafd4fe9b6000b86ecee0210c755</map>

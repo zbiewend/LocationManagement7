@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_nike2_location_data_center" version="2" view="">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -59,7 +58,7 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-04-17 19:59:15</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_id>24f7eebb4f0632000b86ecee0210c73d</sys_id>
             <sys_mod_count>0</sys_mod_count>

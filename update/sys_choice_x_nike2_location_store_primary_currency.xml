@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="primary_currency" table="x_nike2_location_store" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -348,6 +347,24 @@
             <element>primary_currency</element>
             <hint/>
             <inactive>false</inactive>
+            <label>UYU</label>
+            <language>en</language>
+            <name>x_nike2_location_store</name>
+            <sequence>0</sequence>
+            <sys_created_by>ZBIEWE</sys_created_by>
+            <sys_created_on>2017-04-26 19:18:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3ff4fc364f16f600de2c0ad14210c7cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ZBIEWE</sys_updated_by>
+            <sys_updated_on>2017-04-26 19:18:47</sys_updated_on>
+            <value>UYU</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_currency</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>ZAR</label>
             <language>en</language>
             <name>x_nike2_location_store</name>
@@ -368,7 +385,7 @@
             <sys_created_by>ZBIEWE</sys_created_by>
             <sys_created_on>2017-03-17 17:59:57</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>acbdb97b4f067200de2c0ad14210c7a7</sys_id>
+            <sys_id>e64b51f24f5a76802b2ffaf01210c7a9</sys_id>
             <sys_mod_count>20</sys_mod_count>
             <sys_name>primary_currency</sys_name>
             <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>

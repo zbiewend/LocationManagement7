@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Partner Door DS" max_length="40" name="x_nike2_location_partner_door_ds" type="collection">
+        <element attributes="import_attribute_name=City,edge_encryption_enabled=true" label="City" max_length="40" name="u_city" type="string"/>
+        <element attributes="import_attribute_name=Company,edge_encryption_enabled=true" label="Company" max_length="40" name="u_company" type="string"/>
+        <element attributes="import_attribute_name=Concept,edge_encryption_enabled=true" label="Concept" max_length="40" name="u_concept" type="string"/>
+        <element attributes="import_attribute_name=Country,edge_encryption_enabled=true" label="Country" max_length="40" name="u_country" type="string"/>
+        <element attributes="import_attribute_name=Latitude,edge_encryption_enabled=true" label="Latitude" max_length="40" name="u_latitude" type="float"/>
+        <element attributes="import_attribute_name=Longitude,edge_encryption_enabled=true" label="Longitude" max_length="40" name="u_longitude" type="float"/>
+        <element attributes="import_attribute_name=Parent,edge_encryption_enabled=true" label="Parent" max_length="40" name="u_parent" type="string"/>
+        <element attributes="import_attribute_name=Partner Name,edge_encryption_enabled=true" label="Partner Name" max_length="40" name="u_partner_name" type="string"/>
+        <element attributes="import_attribute_name=Phone,edge_encryption_enabled=true" label="Phone" max_length="40" name="u_phone" type="string"/>
+        <element attributes="import_attribute_name=State/Province/,edge_encryption_enabled=true" label="State/Province/" max_length="40" name="u_state_province_" type="string"/>
+        <element attributes="import_attribute_name=Store Name,edge_encryption_enabled=true" label="Store Name" max_length="40" name="u_store_name" type="string"/>
+        <element attributes="import_attribute_name=Store Number,edge_encryption_enabled=true" label="Store Number" max_length="40" name="u_store_number" type="integer"/>
+        <element attributes="import_attribute_name=Street Address,edge_encryption_enabled=true" label="Street Address" max_length="40" name="u_street_address" type="string"/>
+        <element attributes="import_attribute_name=Sub Concept,edge_encryption_enabled=true" label="Sub Concept" max_length="40" name="u_sub_concept" type="string"/>
+        <element attributes="import_attribute_name=Time Zone,edge_encryption_enabled=true" label="Time Zone" max_length="40" name="u_time_zone" type="string"/>
+        <element attributes="import_attribute_name=Zip,edge_encryption_enabled=true" label="Zip" max_length="40" name="u_zip" type="integer"/>
+    </element>
+</database>

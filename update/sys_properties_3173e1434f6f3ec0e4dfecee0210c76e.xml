@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Office activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_nike2_location_office_activity.fields</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>ZBIEWE</sys_created_by>
+        <sys_created_on>2017-06-28 20:38:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3173e1434f6f3ec0e4dfecee0210c76e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_nike2_location_office_activity.fields</sys_name>
+        <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+        <sys_update_name>sys_properties_3173e1434f6f3ec0e4dfecee0210c76e</sys_update_name>
+        <sys_updated_by>ZBIEWE</sys_updated_by>
+        <sys_updated_on>2017-06-28 20:38:48</sys_updated_on>
+        <type>string</type>
+        <value>name,company,u_location_type,parent,sys_created_on,sys_updated_on,u_active,u_campus,city,sys_class_name,contact,country,u_country_code,sys_created_by,u_description,u_email,fax_phone,full_name,u_geography,u_global,u_language,lat_long_error,latitude,longitude,u_management_country,master_roster,u_neighborhood,phone,phone_territory,u_sla_region,u_selectable,state,stock_room,u_store_code,street,u_sub_geography,u_sub_management_country,u_sub_territory,u_super_geography,u_support_schedule,sys_tags,u_territory,time_zone,u_top_level_geography,sys_updated_by,sys_mod_count,zip,*Email*,*Relations*,*Attachments*</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=3173e1434f6f3ec0e4dfecee0210c76e"/>
+</record_update>

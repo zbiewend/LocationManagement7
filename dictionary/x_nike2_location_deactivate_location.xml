@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Deactivate location" max_length="40" name="x_nike2_location_deactivate_location" type="collection">
+        <element attributes="import_attribute_name=Active users" label="Active users" max_length="40" name="u_active_users" type="integer"/>
+        <element attributes="import_attribute_name=City,edge_encryption_enabled=true" label="City" max_length="40" name="u_city" type="string"/>
+        <element attributes="import_attribute_name=Class,edge_encryption_enabled=true" label="Class" max_length="40" name="u_class" type="string"/>
+        <element attributes="import_attribute_name=Company,edge_encryption_enabled=true" label="Company" max_length="40" name="u_company" type="string"/>
+        <element attributes="import_attribute_name=Country,edge_encryption_enabled=true" label="Country" max_length="40" name="u_country" type="string"/>
+        <element attributes="import_attribute_name=Country code,edge_encryption_enabled=true" label="Country code" max_length="40" name="u_country_code" type="string"/>
+        <element attributes="import_attribute_name=Created on" label="Created on" max_length="40" name="u_created_on" type="glide_date_time"/>
+        <element attributes="import_attribute_name=Group active,edge_encryption_enabled=true" label="Group active" max_length="40" name="u_group_active" type="string"/>
+        <element attributes="import_attribute_name=Inactive users" label="Inactive users" max_length="40" name="u_inactive_users" type="integer"/>
+        <element attributes="import_attribute_name=State,edge_encryption_enabled=true" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="import_attribute_name=Street,edge_encryption_enabled=true" label="Street" max_length="86" name="u_street" type="string"/>
+        <element attributes="import_attribute_name=Total users" label="Total users" max_length="40" name="u_total_users" type="integer"/>
+        <element attributes="import_attribute_name=URL,edge_encryption_enabled=true" label="URL" max_length="121" name="u_url" type="string"/>
+        <element attributes="import_attribute_name=x,edge_encryption_enabled=true" label="x" max_length="55" name="u_x" type="string"/>
+        <element attributes="import_attribute_name=Zip,edge_encryption_enabled=true" label="Zip" max_length="40" name="u_zip" type="string"/>
+    </element>
+</database>

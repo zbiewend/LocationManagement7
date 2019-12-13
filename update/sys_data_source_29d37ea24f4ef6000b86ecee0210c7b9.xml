@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_data_source">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_source">
     <sys_data_source action="INSERT_OR_UPDATE">
         <category/>
         <connection_timeout>0</connection_timeout>
@@ -8,6 +7,7 @@
         <csv_delimiter/>
         <database_name/>
         <database_port/>
+        <discard_arrays>true</discard_arrays>
         <expand_node_children>false</expand_node_children>
         <file_path>locationattributes_update_v2.12.xlsx</file_path>
         <file_retrieval_method>Attachment</file_retrieval_method>
@@ -21,6 +21,7 @@
         <jdbc_server/>
         <jdbc_user_name/>
         <jdbcprobe_result_set_rows/>
+        <jpath_root_node/>
         <last_run_database_field/>
         <last_run_datetime/>
         <ldap_target/>

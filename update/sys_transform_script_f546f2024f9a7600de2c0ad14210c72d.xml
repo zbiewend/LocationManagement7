@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <map display_value="01 office transform">77bdf0054f6d36000b86ecee0210c739</map>
+        <order>100</order>
+        <script><![CDATA[// office type
+(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+	var type = source.u_class_subtype.toString();
+	var value = '';
+	
+	if ( type == 'Corporate' ) {
+		value = 'Corporate';
+	}
+	else if ( type == 'Remote' ) {
+		value = 'Remote';
+	}
+	else if ( type == 'Liaison' ) {
+		value = 'Liaison';
+	}
+	else if ( type == 'HQ' ) {
+		value = 'HQ';
+	}
+	else if ( type == 'Sales' ) {
+		value = 'Sales';
+	}
+	
+	target.office_type = value;
+	target.update();
+
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>ZBIEWE</sys_created_by>
+        <sys_created_on>2017-04-24 20:55:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f546f2024f9a7600de2c0ad14210c72d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>onAfter</sys_name>
+        <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+        <sys_update_name>sys_transform_script_f546f2024f9a7600de2c0ad14210c72d</sys_update_name>
+        <sys_updated_by>ZBIEWE</sys_updated_by>
+        <sys_updated_on>2017-04-25 21:36:15</sys_updated_on>
+        <when>onAfter</when>
+    </sys_transform_script>
+</record_update>

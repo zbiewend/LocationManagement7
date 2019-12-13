@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Location" section_id="c6c6a6584fa17600de2c0ad14210c7af" sys_domain="global" table="x_nike2_location_data_center" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>city</element>

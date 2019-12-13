@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="" label="Sub Management Country" language="en" table="x_nike2_location_sub_management_country">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>

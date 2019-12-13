@@ -1,19 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="sys_import_set_row" label="store import" max_length="40" name="x_nike2_location_store_import" type="collection">
         <element attributes="import_attribute_name=Active,edge_encryption_enabled=true" label="Active" max_length="40" name="u_active" type="string"/>
         <element attributes="import_attribute_name=Brand,edge_encryption_enabled=true" label="Brand" max_length="40" name="u_brand" type="string"/>
         <element attributes="import_attribute_name=City,edge_encryption_enabled=true" label="City" max_length="40" name="u_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Company" max_length="40" name="u_company" type="string"/>
         <element attributes="import_attribute_name=Concept,edge_encryption_enabled=true" label="Concept" max_length="40" name="u_concept" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Cost Center" max_length="40" name="u_cost_center" type="string"/>
         <element attributes="import_attribute_name=Country,edge_encryption_enabled=true" label="Country" max_length="100" name="u_country" type="string"/>
         <element attributes="import_attribute_name=Email,edge_encryption_enabled=true" label="Email" max_length="65" name="u_email" type="string"/>
         <element attributes="import_attribute_name=Franchise,edge_encryption_enabled=true" label="Franchise" max_length="40" name="u_franchise" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Hurley IT Store Number" max_length="40" name="u_hurley_it_store_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Language" max_length="40" name="u_language" type="string"/>
         <element attributes="import_attribute_name=Latitude" label="Latitude" max_length="40" name="u_latitude" type="float"/>
         <element attributes="import_attribute_name=Lease number,edge_encryption_enabled=true" label="Lease number" max_length="40" name="u_lease_number" type="string"/>
         <element attributes="import_attribute_name=Longitude" label="Longitude" max_length="40" name="u_longitude" type="float"/>
         <element attributes="import_attribute_name=Merchant ID,edge_encryption_enabled=true" label="Merchant ID" max_length="40" name="u_merchant_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="u_name" type="string"/>
         <element attributes="import_attribute_name=Notes,edge_encryption_enabled=true" label="Notes" max_length="4000" name="u_notes" type="string"/>
         <element attributes="import_attribute_name=Open Date" label="Open Date" max_length="40" name="u_open_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="parent" max_length="40" name="u_parent" type="string"/>
