@@ -6,13 +6,13 @@
         <content_page/>
         <device_type/>
         <filter table="cmn_location">u_active=true^sys_class_name=x_nike2_location_store^ORsys_class_name=x_nike2_location_office^ORsys_class_name=x_nike2_location_logistics_center^ORsys_class_name=x_nike2_location_data_center^NQu_active=true^sys_class_name=cmn_location^u_location_type!=^EQ<item endquery="false" field="u_active" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="x_nike2_location_store"/>
-            <item endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="true" value="x_nike2_location_office"/>
-            <item endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="true" value="x_nike2_location_logistics_center"/>
-            <item endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="true" value="x_nike2_location_data_center"/>
+            <item display_value="Store" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="x_nike2_location_store"/>
+            <item display_value="Office" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="true" value="x_nike2_location_office"/>
+            <item display_value="Logistics Center" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="true" value="x_nike2_location_logistics_center"/>
+            <item display_value="Data Center" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="true" value="x_nike2_location_data_center"/>
             <item endquery="false" field="u_active" goto="false" newquery="true" operator="=" or="false" value="true"/>
-            <item endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="cmn_location"/>
-            <item endquery="false" field="u_location_type" goto="false" newquery="false" operator="!=" or="false" value=""/>
+            <item display_value="Location" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="cmn_location"/>
+            <item display_value="-- Select one --" endquery="false" field="u_location_type" goto="false" newquery="false" operator="!=" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint/>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="management_country" table="x_nike2_location_retail_territory">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes/>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Management Country</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>management_country</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <name>x_nike2_location_retail_territory</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_nike2_location_management_country">x_nike2_location_management_country</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual>u_active=true^EQ</reference_qual>
+        <reference_qual_condition table="x_nike2_location_management_country">u_active=true^EQ<item endquery="false" field="u_active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>VSai1</sys_created_by>
+        <sys_created_on>2019-02-19 19:12:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ea135ce8dbb3e38498d4f7441d9619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Management Country</sys_name>
+        <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+        <sys_update_name>sys_dictionary_x_nike2_location_retail_territory_management_country</sys_update_name>
+        <sys_updated_by>VSai1</sys_updated_by>
+        <sys_updated_on>2019-02-19 19:12:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Location Management">440eac804f213600de2c0ad14210c743</application>
+        <file_path/>
+        <instance_id>eb836f11ff22ac046663762fa87efe26</instance_id>
+        <instance_name>niketech</instance_name>
+        <name>sys_dictionary_x_nike2_location_retail_territory_management_country</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="management_country" table="x_nike2_location_retail_territory"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Management Country&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;management_country&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;x_nike2_location_retail_territory&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="x_nike2_location_management_country"&gt;x_nike2_location_management_country&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual&gt;u_active=true^EQ&lt;/reference_qual&gt;&lt;reference_qual_condition table="x_nike2_location_management_country"&gt;u_active=true^EQ&lt;item endquery="false" field="u_active" goto="false" newquery="false" operator="=" or="false" value="true"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/reference_qual_condition&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;VSai1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-19 19:12:53&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;ea135ce8dbb3e38498d4f7441d9619dc&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Management Country&lt;/sys_name&gt;&lt;sys_package display_value="Location Management" source="x_nike2_location"&gt;440eac804f213600de2c0ad14210c743&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Location Management"&gt;440eac804f213600de2c0ad14210c743&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_nike2_location_retail_territory_management_country&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;VSai1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-19 19:12:53&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;u_last_refreshed/&gt;&lt;u_model_id/&gt;&lt;u_normalize_set/&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1119770167</payload_hash>
+        <record_name>Retail Territory.Management Country</record_name>
+        <reverted_from/>
+        <source>1bc4290fdb7fa308f6b2ab92ca96199a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DSil10</sys_created_by>
+        <sys_created_on>2019-02-27 19:33:53</sys_created_on>
+        <sys_id>e0d46183db33e308f6b2ab92ca9619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1693072f2910000001</sys_recorded_at>
+        <sys_updated_by>DSil10</sys_updated_by>
+        <sys_updated_on>2019-02-27 19:33:53</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>0343d02ce4b3e38408e0376dae21d7b5</update_guid>
+        <update_guid_history>0343d02ce4b3e38408e0376dae21d7b5:1119770167</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>RJimme</sys_created_by>
+        <sys_created_on>2019-07-24 20:29:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>0ea19e2980b3470a8b4424a5dc9de5f9</sys_id>
+        <sys_metadata>ea135ce8dbb3e38498d4f7441d9619dc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Management Country</sys_name>
+        <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+        <sys_parent display_value="Retail Territory">e82bbbd0dbbfa38498d4f7441d9619d3</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+        <sys_scope_delete display_value="">0d804d1ea03a4f2a86b32f9d9cc21ca4</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_nike2_location_retail_territory_management_country</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_nike2_location_retail_territory_management_country">e0d46183db33e308f6b2ab92ca9619ba</sys_update_version>
+        <sys_updated_by>RJimme</sys_updated_by>
+        <sys_updated_on>2019-07-24 20:29:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -3,92 +3,92 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_import_row</element>
-            <list_id display_value="x_nike2_location_cube_import" element="NULL" name="x_nike2_location_cube_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0ef36a8fdba904d85941575e5e961970</list_id>
+            <list_id display_value="x_nike2_location_cube_import" element="NULL" name="x_nike2_location_cube_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e1bc5369dbc7801098d4f7441d961971</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>KCONV1</sys_created_by>
-            <sys_created_on>2019-12-10 20:10:49</sys_created_on>
-            <sys_id>0af36a8fdba904d85941575e5e961971</sys_id>
+            <sys_created_on>2020-02-18 22:02:01</sys_created_on>
+            <sys_id>21bc5369dbc7801098d4f7441d961972</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>KCONV1</sys_updated_by>
-            <sys_updated_on>2019-12-10 20:10:49</sys_updated_on>
+            <sys_updated_on>2020-02-18 22:02:01</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_import_set</element>
-            <list_id display_value="x_nike2_location_cube_import" element="NULL" name="x_nike2_location_cube_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0ef36a8fdba904d85941575e5e961970</list_id>
+            <list_id display_value="x_nike2_location_cube_import" element="NULL" name="x_nike2_location_cube_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e1bc5369dbc7801098d4f7441d961971</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>KCONV1</sys_created_by>
-            <sys_created_on>2019-12-10 20:10:49</sys_created_on>
-            <sys_id>02f36a8fdba904d85941575e5e961972</sys_id>
+            <sys_created_on>2020-02-18 22:02:01</sys_created_on>
+            <sys_id>29bc5369dbc7801098d4f7441d961972</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>KCONV1</sys_updated_by>
-            <sys_updated_on>2019-12-10 20:10:49</sys_updated_on>
+            <sys_updated_on>2020-02-18 22:02:01</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_import_state</element>
-            <list_id display_value="x_nike2_location_cube_import" element="NULL" name="x_nike2_location_cube_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0ef36a8fdba904d85941575e5e961970</list_id>
+            <list_id display_value="x_nike2_location_cube_import" element="NULL" name="x_nike2_location_cube_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e1bc5369dbc7801098d4f7441d961971</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>KCONV1</sys_created_by>
-            <sys_created_on>2019-12-10 20:10:49</sys_created_on>
-            <sys_id>06f36a8fdba904d85941575e5e961972</sys_id>
+            <sys_created_on>2020-02-18 22:02:01</sys_created_on>
+            <sys_id>2dbc5369dbc7801098d4f7441d961972</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>KCONV1</sys_updated_by>
-            <sys_updated_on>2019-12-10 20:10:49</sys_updated_on>
+            <sys_updated_on>2020-02-18 22:02:01</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_target_table</element>
-            <list_id display_value="x_nike2_location_cube_import" element="NULL" name="x_nike2_location_cube_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0ef36a8fdba904d85941575e5e961970</list_id>
+            <list_id display_value="x_nike2_location_cube_import" element="NULL" name="x_nike2_location_cube_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e1bc5369dbc7801098d4f7441d961971</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>KCONV1</sys_created_by>
-            <sys_created_on>2019-12-10 20:10:49</sys_created_on>
-            <sys_id>0af36a8fdba904d85941575e5e961972</sys_id>
+            <sys_created_on>2020-02-18 22:02:01</sys_created_on>
+            <sys_id>21bc5369dbc7801098d4f7441d961973</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>KCONV1</sys_updated_by>
-            <sys_updated_on>2019-12-10 20:10:49</sys_updated_on>
+            <sys_updated_on>2020-02-18 22:02:01</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_target_sys_id</element>
-            <list_id display_value="x_nike2_location_cube_import" element="NULL" name="x_nike2_location_cube_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0ef36a8fdba904d85941575e5e961970</list_id>
+            <list_id display_value="x_nike2_location_cube_import" element="NULL" name="x_nike2_location_cube_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e1bc5369dbc7801098d4f7441d961971</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>KCONV1</sys_created_by>
-            <sys_created_on>2019-12-10 20:10:49</sys_created_on>
-            <sys_id>0ef36a8fdba904d85941575e5e961972</sys_id>
+            <sys_created_on>2020-02-18 22:02:01</sys_created_on>
+            <sys_id>25bc5369dbc7801098d4f7441d961973</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>KCONV1</sys_updated_by>
-            <sys_updated_on>2019-12-10 20:10:49</sys_updated_on>
+            <sys_updated_on>2020-02-18 22:02:01</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_row_error</element>
-            <list_id display_value="x_nike2_location_cube_import" element="NULL" name="x_nike2_location_cube_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0ef36a8fdba904d85941575e5e961970</list_id>
+            <list_id display_value="x_nike2_location_cube_import" element="NULL" name="x_nike2_location_cube_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e1bc5369dbc7801098d4f7441d961971</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>KCONV1</sys_created_by>
-            <sys_created_on>2019-12-10 20:10:49</sys_created_on>
-            <sys_id>02f36a8fdba904d85941575e5e961973</sys_id>
+            <sys_created_on>2020-02-18 22:02:01</sys_created_on>
+            <sys_id>29bc5369dbc7801098d4f7441d961973</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>KCONV1</sys_updated_by>
-            <sys_updated_on>2019-12-10 20:10:49</sys_updated_on>
+            <sys_updated_on>2020-02-18 22:02:01</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -102,10 +102,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>KCONV1</sys_created_by>
-            <sys_created_on>2019-12-10 20:10:49</sys_created_on>
+            <sys_created_on>2020-02-18 22:02:00</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_id>0ef36a8fdba904d85941575e5e961970</sys_id>
+            <sys_id>e1bc5369dbc7801098d4f7441d961971</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_nike2_location_cube_import</sys_name>
             <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
@@ -114,7 +114,7 @@
             <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
             <sys_update_name>sys_ui_list_x_nike2_location_cube_import_null</sys_update_name>
             <sys_updated_by>KCONV1</sys_updated_by>
-            <sys_updated_on>2019-12-10 20:10:49</sys_updated_on>
+            <sys_updated_on>2020-02-18 22:02:00</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

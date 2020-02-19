@@ -3,6 +3,7 @@
         <access>public</access>
         <actions_access>false</actions_access>
         <alter_access>false</alter_access>
+        <caller_access/>
         <client_scripts_access>false</client_scripts_access>
         <configuration_access>false</configuration_access>
         <create_access>false</create_access>
@@ -16,6 +17,7 @@
         <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
         <super_class/>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
@@ -34,7 +36,7 @@
         <sys_updated_by>KCONV1</sys_updated_by>
         <sys_updated_on>2019-12-02 17:50:48</sys_updated_on>
         <update_access>false</update_access>
-        <user_role display_value="x_nike2_location.room_category_user" name="x_nike2_location.room_category_user">503770a4db2148185941575e5e96195b</user_role>
+        <user_role display_value="">503770a4db2148185941575e5e96195b</user_role>
         <ws_access>false</ws_access>
     </sys_db_object>
 </record_update>

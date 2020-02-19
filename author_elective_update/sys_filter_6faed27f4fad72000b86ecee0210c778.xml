@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter">
+    <sys_filter action="DELETE">
+        <filter table="sys_user">nameSTARTSWITHjennif^nameISNOTEMPTY^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="STARTSWITH" or="false" value="jennif"/>
+            <item endquery="false" field="name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <group/>
+        <last_used>2017-03-23 22:47:22</last_used>
+        <mobile>true</mobile>
+        <roles/>
+        <sys_class_name>sys_filter</sys_class_name>
+        <sys_created_by>ZBIEWE</sys_created_by>
+        <sys_created_on>2017-03-23 22:47:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>6faed27f4fad72000b86ecee0210c778</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mobile</sys_name>
+        <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+        <sys_update_name>sys_filter_6faed27f4fad72000b86ecee0210c778</sys_update_name>
+        <sys_updated_by>ZBIEWE</sys_updated_by>
+        <sys_updated_on>2017-03-23 22:47:22</sys_updated_on>
+        <table>sys_user</table>
+        <title>mobile</title>
+        <user display_value="Zachary Biewend">316f52bb0f797100f133983be1050e28</user>
+    </sys_filter>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Location Management">440eac804f213600de2c0ad14210c743</application>
+        <file_path/>
+        <instance_id>eb836f11ff22ac046663762fa87efe26</instance_id>
+        <instance_name>niketech</instance_name>
+        <name>sys_filter_6faed27f4fad72000b86ecee0210c778</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter">
+    <sys_filter action="INSERT_OR_UPDATE">
+        <filter table="sys_user">nameSTARTSWITHjennif^nameISNOTEMPTY^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="STARTSWITH" or="false" value="jennif"/>
+            <item endquery="false" field="name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <group/>
+        <last_used>2017-03-23 22:47:22</last_used>
+        <mobile>true</mobile>
+        <roles/>
+        <sys_class_name>sys_filter</sys_class_name>
+        <sys_created_by>ZBIEWE</sys_created_by>
+        <sys_created_on>2017-03-23 22:47:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>6faed27f4fad72000b86ecee0210c778</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mobile</sys_name>
+        <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+        <sys_update_name>sys_filter_6faed27f4fad72000b86ecee0210c778</sys_update_name>
+        <sys_updated_by>ZBIEWE</sys_updated_by>
+        <sys_updated_on>2017-03-23 22:47:22</sys_updated_on>
+        <table>sys_user</table>
+        <title>mobile</title>
+        <user display_value="Zachary Biewend">316f52bb0f797100f133983be1050e28</user>
+    </sys_filter>
+</record_update>]]></payload>
+        <payload_hash>312111839</payload_hash>
+        <record_name>mobile</record_name>
+        <reverted_from/>
+        <source>76c1febb4f8e7600cad3a35e0210c706</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-04-17 20:43:08</sys_created_on>
+        <sys_id>e7f17efb4f8e7600cad3a35e0210c76c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>15b7da79b600000000</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-04-17 20:43:08</sys_updated_on>
+        <type>Filter</type>
+        <update_guid/>
+        <update_guid_history/>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ZBIEWE</sys_created_by>
+        <sys_created_on>2017-04-19 17:09:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_filter">sys_filter</sys_db_object>
+        <sys_id>4adefa62887247539e54f27a2557e929</sys_id>
+        <sys_metadata>6faed27f4fad72000b86ecee0210c778</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mobile</sys_name>
+        <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+        <sys_parent display_value="User">e6a151cc30ccf1005d499e01aa0ef68d</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
+        <sys_scope_delete display_value="">0d804d1ea03a4f2a86b32f9d9cc21ca4</sys_scope_delete>
+        <sys_update_name>sys_filter_6faed27f4fad72000b86ecee0210c778</sys_update_name>
+        <sys_update_version display_value="sys_filter_6faed27f4fad72000b86ecee0210c778">e7f17efb4f8e7600cad3a35e0210c76c</sys_update_version>
+        <sys_updated_by>ZBIEWE</sys_updated_by>
+        <sys_updated_on>2017-04-19 17:09:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -16,6 +16,9 @@
                 <element inactive_on_update="false" label="Inline" sequence="8" value="Inline"/>
                 <element inactive_on_update="false" label="Partner" sequence="9" value="Partner"/>
                 <element inactive_on_update="false" label="Standard" sequence="10" value="Standard"/>
+                <element inactive_on_update="false" label="eCommerce" sequence="11" value="E-Commerce"/>
+                <element inactive_on_update="false" label="Offsite Service Center" sequence="12" value="Offsite Service Center"/>
+                <element inactive_on_update="false" label="Specialty (Non-B&amp;M)" sequence="13" value="Specialty (Non-B&amp;M)"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Cost center" max_length="32" name="cost_center" reference="cmn_cost_center" type="reference"/>

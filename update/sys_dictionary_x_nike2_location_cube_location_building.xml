@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>ac_ref_columns=name:building code</attributes>
+        <attributes>ac_ref_columns=name:building code,edge_encryption_enabled=true,encode_utf8=false</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -45,7 +45,7 @@
         <reference_floats>false</reference_floats>
         <reference_key/>
         <reference_qual>sys_class_name=x_nike2_location_office^EQ</reference_qual>
-        <reference_qual_condition table="cmn_location">sys_class_name=x_nike2_location_office^EQ<item endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="x_nike2_location_office"/>
+        <reference_qual_condition table="cmn_location">sys_class_name=x_nike2_location_office^EQ<item display_value="Office" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="x_nike2_location_office"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_qual_condition>
         <reference_type/>

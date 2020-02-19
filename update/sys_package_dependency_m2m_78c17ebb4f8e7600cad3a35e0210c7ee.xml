@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System Import Sets" source="com.glide.system_import_set">25b29500300035005d499e01aa0ef67c</dependency>
+        <min_version/>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-04-17 20:42:08</sys_created_on>
+        <sys_id>78c17ebb4f8e7600cad3a35e0210c7ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-04-17 20:42:08</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

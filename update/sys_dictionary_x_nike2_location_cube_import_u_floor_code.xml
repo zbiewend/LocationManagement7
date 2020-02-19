@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>edge_encryption_enabled=true,import_attribute_name=Floor Code</attributes>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
@@ -47,9 +47,9 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>KCONV1</sys_created_by>
-        <sys_created_on>2019-12-10 20:10:01</sys_created_on>
+        <sys_created_on>2020-02-18 22:10:16</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>2ec36e4fdba904d85941575e5e96197a</sys_id>
+        <sys_id>ea9ed3addbc7801098d4f7441d9619dc</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Floor Code</sys_name>
         <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
@@ -58,7 +58,7 @@
         <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
         <sys_update_name>sys_dictionary_x_nike2_location_cube_import_u_floor_code</sys_update_name>
         <sys_updated_by>KCONV1</sys_updated_by>
-        <sys_updated_on>2019-12-10 20:10:01</sys_updated_on>
+        <sys_updated_on>2020-02-18 22:10:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <u_last_refreshed/>

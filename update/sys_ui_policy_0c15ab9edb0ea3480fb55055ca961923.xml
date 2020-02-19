@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_nike2_location_store">concept=Partner^EQ<item endquery="false" field="concept" goto="false" newquery="false" operator="=" or="false" value="Partner"/>
+        <conditions table="x_nike2_location_store">concept=Partner^EQ<item display_value="Partner" endquery="false" field="concept" goto="false" newquery="false" operator="=" or="false" value="Partner"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>

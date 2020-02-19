@@ -1,22 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="sys_import_set_row" label="cube_import" max_length="40" name="x_nike2_location_cube_import" type="collection">
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Approver 1" label="Approver 1" max_length="40" name="u_approver_1" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Approver 2" label="Approver 2" max_length="40" name="u_approver_2" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Building Code" label="Building Code" max_length="40" name="u_building_code" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Category Description" label="Category Description" max_length="40" name="u_category_description" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Comments" label="Comments" max_length="40" name="u_comments" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Department Code" label="Department Code" max_length="40" name="u_department_code" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Department Name" label="Department Name" max_length="40" name="u_department_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Division Code" label="Division Code" max_length="40" name="u_division_code" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Division Name" label="Division Name" max_length="40" name="u_division_name" type="string"/>
-        <element attributes="import_attribute_name=Employee Capacity" label="Employee Capacity" max_length="40" name="u_employee_capacity" type="integer"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Floor Code" label="Floor Code" max_length="40" name="u_floor_code" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Key/Lock Type" label="Key/Lock Type" max_length="40" name="u_key_lock_type" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Ownership" label="Ownership" max_length="40" name="u_ownership" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=RoomName" label="RoomName" max_length="40" name="u_roomname" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Room Category" label="Room Category" max_length="40" name="u_room_category" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Room Code" label="Room Code" max_length="40" name="u_room_code" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Room Type" label="Room Type" max_length="40" name="u_room_type" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Type Description" label="Type Description" max_length="40" name="u_type_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Approver 1" max_length="40" name="u_approver_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Approver 2" max_length="40" name="u_approver_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=B" label="B" max_length="40" name="u_b" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Building Code" max_length="40" name="u_building_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=C" label="C" max_length="40" name="u_c" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Category Description" max_length="40" name="u_category_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="40" name="u_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=D" label="D" max_length="40" name="u_d" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Department Code" max_length="40" name="u_department_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Department Name" max_length="40" name="u_department_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Division Code" max_length="40" name="u_division_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Division Name" max_length="40" name="u_division_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=E" label="E" max_length="40" name="u_e" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Employee Capacity" max_length="40" name="u_employee_capacity" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=F" label="F" max_length="40" name="u_f" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Floor Code" max_length="40" name="u_floor_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=G" label="G" max_length="40" name="u_g" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=H" label="H" max_length="40" name="u_h" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=I" label="I" max_length="40" name="u_i" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=J" label="J" max_length="40" name="u_j" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=K" label="K" max_length="40" name="u_k" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Key/Lock Type" max_length="40" name="u_key_lock_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=L" label="L" max_length="40" name="u_l" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=M" label="M" max_length="40" name="u_m" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=N" label="N" max_length="40" name="u_n" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=O" label="O" max_length="40" name="u_o" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Ownership" max_length="40" name="u_ownership" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=P" label="P" max_length="40" name="u_p" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Q" label="Q" max_length="40" name="u_q" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=R" label="R" max_length="40" name="u_r" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="RoomName" max_length="40" name="u_roomname" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Rooms" label="Rooms" max_length="40" name="u_rooms" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Room Category" max_length="40" name="u_room_category" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Room Code" max_length="40" name="u_room_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Room Type" max_length="40" name="u_room_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Type Description" max_length="40" name="u_type_description" type="string"/>
     </element>
 </database>

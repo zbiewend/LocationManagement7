@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Room Type" max_length="40" name="x_nike2_location_room_type" type="collection">
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="true" label="Active" max_length="40" name="active" type="boolean"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Description" max_length="100" name="description" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Description" max_length="100" name="description" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
     </element>
 </database>

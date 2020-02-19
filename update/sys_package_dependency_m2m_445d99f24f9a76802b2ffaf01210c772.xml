@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System (apps/system)" source="apps/system">f08dff014f2302005a0209fd0210c7e4</dependency>
+        <min_version/>
+        <sys_created_by>ZBIEWE</sys_created_by>
+        <sys_created_on>2017-04-26 22:14:57</sys_created_on>
+        <sys_id>445d99f24f9a76802b2ffaf01210c772</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
+        <sys_updated_by>ZBIEWE</sys_updated_by>
+        <sys_updated_on>2017-04-26 22:14:57</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

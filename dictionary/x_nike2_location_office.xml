@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" extends="cmn_location" label="Office" max_length="40" name="x_nike2_location_office" type="collection">
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Building Code" max_length="10" name="building_code" type="string"/>
+        <element label="Building Code" max_length="10" name="building_code" type="string"/>
         <element label="Master Roster" max_length="40" name="master_roster" type="boolean"/>
     </element>
 </database>

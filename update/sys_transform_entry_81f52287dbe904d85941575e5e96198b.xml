@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
     <sys_transform_entry action="INSERT_OR_UPDATE">
-        <choice_action>ignore</choice_action>
+        <choice_action>create</choice_action>
         <coalesce>true</coalesce>
         <coalesce_case_sensitive>false</coalesce_case_sensitive>
         <coalesce_empty_fields>false</coalesce_empty_fields>
@@ -20,7 +20,7 @@
         <sys_created_on>2019-12-10 20:19:28</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>81f52287dbe904d85941575e5e96198b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>u_room_code</sys_name>
         <sys_package display_value="Location Management" source="x_nike2_location">440eac804f213600de2c0ad14210c743</sys_package>
         <sys_policy/>
@@ -28,7 +28,7 @@
         <sys_scope display_value="Location Management">440eac804f213600de2c0ad14210c743</sys_scope>
         <sys_update_name>sys_transform_entry_81f52287dbe904d85941575e5e96198b</sys_update_name>
         <sys_updated_by>KCONV1</sys_updated_by>
-        <sys_updated_on>2019-12-11 00:06:49</sys_updated_on>
+        <sys_updated_on>2019-12-16 19:43:39</sys_updated_on>
         <target_field>cube</target_field>
         <target_table>x_nike2_location_cube_location</target_table>
         <use_source_script>false</use_source_script>

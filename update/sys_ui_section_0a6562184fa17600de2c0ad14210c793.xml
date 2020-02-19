@@ -4,97 +4,111 @@
             <element>name</element>
             <position>0</position>
             <sys_created_by>KCONV1</sys_created_by>
-            <sys_created_on>2019-11-27 19:43:47</sys_created_on>
-            <sys_id>a311e3fedb5900d45941575e5e9619b7</sys_id>
+            <sys_created_on>2020-02-18 23:38:58</sys_created_on>
+            <sys_id>b1e2b3a5db4f801098d4f7441d961920</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_office" sys_domain="global" view="Default view">0a6562184fa17600de2c0ad14210c793</sys_ui_section>
             <sys_updated_by>KCONV1</sys_updated_by>
-            <sys_updated_on>2019-11-27 19:43:47</sys_updated_on>
+            <sys_updated_on>2020-02-18 23:38:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>building_code</element>
+            <position>1</position>
+            <sys_created_by>KCONV1</sys_created_by>
+            <sys_created_on>2020-02-18 23:38:58</sys_created_on>
+            <sys_id>3de2b3a5db4f801098d4f7441d961920</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_office" sys_domain="global" view="Default view">0a6562184fa17600de2c0ad14210c793</sys_ui_section>
+            <sys_updated_by>KCONV1</sys_updated_by>
+            <sys_updated_on>2020-02-18 23:38:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_active</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>KCONV1</sys_created_by>
-            <sys_created_on>2019-11-27 19:43:47</sys_created_on>
-            <sys_id>2b11e3fedb5900d45941575e5e9619b7</sys_id>
+            <sys_created_on>2020-02-18 23:38:58</sys_created_on>
+            <sys_id>b1e2b3a5db4f801098d4f7441d961921</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_office" sys_domain="global" view="Default view">0a6562184fa17600de2c0ad14210c793</sys_ui_section>
             <sys_updated_by>KCONV1</sys_updated_by>
-            <sys_updated_on>2019-11-27 19:43:47</sys_updated_on>
+            <sys_updated_on>2020-02-18 23:38:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>KCONV1</sys_created_by>
-            <sys_created_on>2019-11-27 19:43:47</sys_created_on>
-            <sys_id>af11e3fedb5900d45941575e5e9619b7</sys_id>
+            <sys_created_on>2020-02-18 23:38:58</sys_created_on>
+            <sys_id>39e2b3a5db4f801098d4f7441d961921</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_office" sys_domain="global" view="Default view">0a6562184fa17600de2c0ad14210c793</sys_ui_section>
             <sys_updated_by>KCONV1</sys_updated_by>
-            <sys_updated_on>2019-11-27 19:43:47</sys_updated_on>
+            <sys_updated_on>2020-02-18 23:38:58</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>parent</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>KCONV1</sys_created_by>
-            <sys_created_on>2019-11-27 19:43:47</sys_created_on>
-            <sys_id>2711e3fedb5900d45941575e5e9619b8</sys_id>
+            <sys_created_on>2020-02-18 23:38:58</sys_created_on>
+            <sys_id>f1e2b3a5db4f801098d4f7441d961947</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_office" sys_domain="global" view="Default view">0a6562184fa17600de2c0ad14210c793</sys_ui_section>
             <sys_updated_by>KCONV1</sys_updated_by>
-            <sys_updated_on>2019-11-27 19:43:47</sys_updated_on>
+            <sys_updated_on>2020-02-18 23:38:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>company</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>KCONV1</sys_created_by>
-            <sys_created_on>2019-11-27 19:43:47</sys_created_on>
-            <sys_id>ab11e3fedb5900d45941575e5e9619b8</sys_id>
+            <sys_created_on>2020-02-18 23:38:58</sys_created_on>
+            <sys_id>79e2b3a5db4f801098d4f7441d961947</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_office" sys_domain="global" view="Default view">0a6562184fa17600de2c0ad14210c793</sys_ui_section>
             <sys_updated_by>KCONV1</sys_updated_by>
-            <sys_updated_on>2019-11-27 19:43:47</sys_updated_on>
+            <sys_updated_on>2020-02-18 23:38:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>KCONV1</sys_created_by>
-            <sys_created_on>2019-11-27 19:43:47</sys_created_on>
-            <sys_id>2311e3fedb5900d45941575e5e9619b9</sys_id>
+            <sys_created_on>2020-02-18 23:38:58</sys_created_on>
+            <sys_id>fde2b3a5db4f801098d4f7441d961947</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_office" sys_domain="global" view="Default view">0a6562184fa17600de2c0ad14210c793</sys_ui_section>
             <sys_updated_by>KCONV1</sys_updated_by>
-            <sys_updated_on>2019-11-27 19:43:47</sys_updated_on>
+            <sys_updated_on>2020-02-18 23:38:58</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>master_roster</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>KCONV1</sys_created_by>
-            <sys_created_on>2019-11-27 19:43:47</sys_created_on>
-            <sys_id>a711e3fedb5900d45941575e5e9619b9</sys_id>
+            <sys_created_on>2020-02-18 23:38:58</sys_created_on>
+            <sys_id>75e2b3a5db4f801098d4f7441d961948</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_nike2_location_office" sys_domain="global" view="Default view">0a6562184fa17600de2c0ad14210c793</sys_ui_section>
             <sys_updated_by>KCONV1</sys_updated_by>
-            <sys_updated_on>2019-11-27 19:43:47</sys_updated_on>
+            <sys_updated_on>2020-02-18 23:38:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
